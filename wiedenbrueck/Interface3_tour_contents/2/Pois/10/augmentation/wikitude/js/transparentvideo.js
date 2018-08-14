@@ -56,8 +56,11 @@ var World = {
 					cam : [videoGoldschatz, this.modelGoldschatz]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableGoldschatz.enabled) {
 					videoGoldschatz.resume();
 					document.location = "architectsdk://contentStarted_video";
+                        
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoGoldschatz.pause();
@@ -70,8 +73,11 @@ var World = {
 					cam : [videoGoldschatz, this.modelGoldschatz]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableGoldschatz_1.enabled) {
 					videoGoldschatz.resume();
 					document.location = "architectsdk://contentStarted_video";
+                        
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoGoldschatz.pause();

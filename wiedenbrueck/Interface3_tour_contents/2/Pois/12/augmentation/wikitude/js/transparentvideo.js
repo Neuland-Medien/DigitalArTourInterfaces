@@ -40,8 +40,11 @@ var World = {
 					cam : [video]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.pageOne.enabled) {
 					video.resume();
 					document.location = "architectsdk://contentStarted_video";
+                        
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					video.pause();
@@ -54,8 +57,11 @@ var World = {
 					cam : [video]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.pageOne_1.enabled) {
+                        
 					video.resume();
 					document.location = "architectsdk://contentStarted_video";
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					video.pause();

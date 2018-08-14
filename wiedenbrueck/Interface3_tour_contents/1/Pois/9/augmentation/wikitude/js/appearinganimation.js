@@ -6,7 +6,7 @@ var World = {
 
 	createOverlays: function createOverlaysFn() {
 
-		this.tracker = new AR.ClientTracker("../base/assets/tracker.wtc");
+		this.tracker = new AR.ClientTracker("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 
 		var trackableBasis = new AR.Trackable2DObject(this.tracker, "*", {
 				onEnterFieldOfVision: function (name) {
@@ -58,7 +58,7 @@ var World = {
 
 		//TRACKABLES FOR 3D
 
-		var trackableFahrrad = new AR.Trackable2DObject(this.tracker, "marker9", {
+		this.trackableFahrrad_2 = new AR.Trackable2DObject(this.tracker, "marker9", {
 				drawables: {
 					cam: [this.modelFahrrad]
 				},
@@ -68,7 +68,7 @@ var World = {
 				}
 			});
 
-		var trackableFahrrad_1 = new AR.Trackable2DObject(this.tracker, "marker9_1", {
+		this.trackableFahrrad_2_1 = new AR.Trackable2DObject(this.tracker, "marker9_1", {
 				drawables: {
 					cam: [this.modelFahrrad]
 				},
@@ -77,7 +77,7 @@ var World = {
 					document.location = "architectsdk://contentStopped_animation";
 				}
 			});
-		var trackableFahrrad_2 = new AR.Trackable2DObject(this.tracker, "marker9_2", {
+		this.trackableFahrrad_2_2 = new AR.Trackable2DObject(this.tracker, "marker9_2", {
 				drawables: {
 					cam: [this.modelFahrrad]
 				},
@@ -123,7 +123,25 @@ var World = {
 		World.animFahrrad.start(-1);
 		World.movingAnimation.start();
 		document.location = "architectsdk://contentStarted_animation";
-	}
+	},
+    
+    switchContentToInfo: function switchContentToInfoFn(){
+			World.trackableFahrrad_2.enabled = false;
+			World.trackableFahrrad_1.enabled = false;
+			World.trackableFahrrad.enabled = false;
+	},
+
+	switchContentToAR: function switchContentToARFn(){
+			World.trackableFahrrad_2.enabled = true;
+			World.trackableFahrrad_1.enabled = true;
+			World.trackableFahrrad.enabled = true;
+	},
+    
+	turnEverythingOff: function turnEverythingOffFn(){
+			World.trackableFahrrad_2.enabled = false;
+			World.trackableFahrrad_1.enabled = false;
+			World.trackableFahrrad.enabled = false;
+    }
 };
 
 World.init();

@@ -39,8 +39,11 @@ var World = {
 					cam : [video]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableMarker5.enabled) {
+                        
 					video.resume();
 					document.location = "architectsdk://contentStarted_video";
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					video.pause();

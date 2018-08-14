@@ -6,7 +6,7 @@ var World = {
 
 	createOverlays : function createOverlaysFn() {
 
-		this.tracker = new AR.ClientTracker("../base/assets/tracker.wtc");
+		this.tracker = new AR.ClientTracker("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 		var trackableBasis = new AR.Trackable2DObject(this.tracker, "*", {
 				onEnterFieldOfVision : function (name) {
 					//document.location = "architectsdk://modelontarget_"+name;
@@ -34,20 +34,49 @@ var World = {
 		videoBrand.pause();
 		document.location = "architectsdk://contentStopped_video";
 
-		var trackableBrand = new AR.Trackable2DObject(this.tracker, "marker2", {
+		this.trackableBrand = new AR.Trackable2DObject(this.tracker, "marker2", {
 				drawables : {
 					cam : [videoBrand]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
-					videoBrand.resume();
-					document.location = "architectsdk://contentStarted_video";
+                    if(World.trackableBrand.enabled) {
+                        videoBrand.resume();
+					   document.location = "architectsdk://contentStarted_video";
+                    }					
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoBrand.pause();
 					document.location = "architectsdk://contentStopped_video";
 				}
 			});
-	}
+	},
+    
+    switchContentToInfo: function switchContentToInfoFn(){
+			for(i=0; i<World.trackableBrand.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableBrand.drawables.cam[i])){
+					World.trackableBrand.drawables.cam[i].pause();
+				}
+			}
+			World.trackableBrand.enabled = false;
+	},
+
+	switchContentToAR: function switchContentToARFn(){
+			for(i=0; i<World.trackableBrand.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableBrand.drawables.cam[i])){
+					World.trackableBrand.drawables.cam[i].resume();
+				}
+			}
+			World.trackableBrand.enabled = true;
+	},
+    
+	turnEverythingOff: function turnEverythingOffFn(){
+			for(i=0; i<World.trackableBrand.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableBrand.drawables.cam[i])){
+					World.trackableBrand.drawables.cam[i].pause();
+				}
+			}
+			World.trackableBrand.enabled = false;
+    }
 };
 
 World.init();

@@ -41,8 +41,11 @@ var World = {
 					cam : [videoSoldaten]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
-					videoSoldaten.resume();
-					document.location = "architectsdk://contentStarted_video";
+                    if(World.trackableSoldaten.enabled) {
+                        videoSoldaten.resume();
+                        document.location = "architectsdk://contentStarted_video";
+                        
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoSoldaten.pause();

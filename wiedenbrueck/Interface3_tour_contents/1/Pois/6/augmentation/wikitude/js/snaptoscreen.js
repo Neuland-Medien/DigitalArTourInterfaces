@@ -6,7 +6,7 @@ var World = {
 
 	createOverlays : function createOverlaysFn() {
 
-		this.tracker = new AR.ClientTracker("../base/assets/tracker.wtc");
+		this.tracker = new AR.ClientTracker("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 
 		var trackableBasis = new AR.Trackable2DObject(this.tracker, "*", {
 				onEnterFieldOfVision : function (name) {
@@ -35,13 +35,15 @@ var World = {
 		videoChrono.pause();
 		document.location = "architectsdk://contentStopped_video";
 
-		var trackableVideo = new AR.Trackable2DObject(this.tracker, "marker6", {
+		this.trackableVideo = new AR.Trackable2DObject(this.tracker, "marker6", {
 				drawables : {
 					cam : [videoChrono]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableVideo.enabled) {
 					videoChrono.resume();
 					document.location = "architectsdk://contentStarted_video";
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoChrono.pause();
@@ -50,13 +52,16 @@ var World = {
 				}
 			});
 
-		var trackableVideo_1 = new AR.Trackable2DObject(this.tracker, "marker6_1", {
+		this.trackableVideo_1 = new AR.Trackable2DObject(this.tracker, "marker6_1", {
 				drawables : {
 					cam : [videoChrono]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableVideo_1.enabled) {
 					videoChrono.resume();
 					document.location = "architectsdk://contentStarted_video";
+                        
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoChrono.pause();
@@ -64,20 +69,94 @@ var World = {
 				}
 			});
 
-		var trackableVideo_2 = new AR.Trackable2DObject(this.tracker, "marker6_2", {
+		this.trackableVideo_2 = new AR.Trackable2DObject(this.tracker, "marker6_2", {
 				drawables : {
 					cam : [videoChrono]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableVideo_2.enabled) {
+                        
 					videoChrono.resume();
 					document.location = "architectsdk://contentStarted_video";
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoChrono.pause();
 					document.location = "architectsdk://contentStopped_video";
 				}
 			});
-	}
+	},
+    
+    switchContentToInfo: function switchContentToInfoFn(){
+			for(i=0; i<World.trackableVideo.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo.drawables.cam[i])){
+					World.trackableVideo.drawables.cam[i].pause();
+				}
+			}
+			World.trackableVideo.enabled = false;
+        
+	       for(i=0; i<World.trackableVideo_1.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo_1.drawables.cam[i])){
+					World.trackableVideo_1.drawables.cam[i].pause();
+				}
+			}
+			World.trackableVideo_1.enabled = false;
+        
+	       for(i=0; i<World.trackableVideo_2.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo_2.drawables.cam[i])){
+					World.trackableVideo_2.drawables.cam[i].pause();
+				}
+			}
+			World.trackableVideo_2.enabled = false;
+	},
+
+	switchContentToAR: function switchContentToARFn(){
+			for(i=0; i<World.trackableVideo.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo.drawables.cam[i])){
+					World.trackableVideo.drawables.cam[i].resume();
+				}
+			}
+			World.trackableVideo.enabled = true;
+        
+            for(i=0; i<World.trackableVideo_1.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo_1.drawables.cam[i])){
+					World.trackableVideo_1.drawables.cam[i].resume();
+				}
+			}
+			World.trackableVideo_1.enabled = true;
+        
+            for(i=0; i<World.trackableVideo_2.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo_2.drawables.cam[i])){
+					World.trackableVideo_2.drawables.cam[i].resume();
+				}
+			}
+			World.trackableVideo_2.enabled = true;
+        
+	},
+    
+	turnEverythingOff: function turnEverythingOffFn(){
+        
+			for(i=0; i<World.trackableVideo.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo.drawables.cam[i])){
+					World.trackableVideo.drawables.cam[i].pause();
+				}
+			}
+			World.trackableVideo.enabled = false;
+        
+	       for(i=0; i<World.trackableVideo_1.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo_1.drawables.cam[i])){
+					World.trackableVideo_1.drawables.cam[i].pause();
+				}
+			}
+			World.trackableVideo_1.enabled = false;
+        
+	       for(i=0; i<World.trackableVideo_2.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableVideo_2.drawables.cam[i])){
+					World.trackableVideo_2.drawables.cam[i].pause();
+				}
+			}
+			World.trackableVideo_2.enabled = false;
+    }
 };
 
 World.init();

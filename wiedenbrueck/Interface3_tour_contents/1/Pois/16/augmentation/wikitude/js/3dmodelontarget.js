@@ -16,7 +16,7 @@ var World = {
 
 	createOverlays: function createOverlaysFn() {
 
-		this.tracker = new AR.ClientTracker("../base/assets/tracker.wtc");
+		this.tracker = new AR.ClientTracker("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 
 		var trackableBasis = new AR.Trackable2DObject(this.tracker, "*", {
 				onEnterFieldOfVision: function (name) {
@@ -490,13 +490,13 @@ var World = {
 
 		this.winningAnimation = this.createWinningAnimation(this.modelKarte1, 1.6);
 
-		var trackable = new AR.Trackable2DObject(this.tracker, "marker16", {
+		this.trackable = new AR.Trackable2DObject(this.tracker, "marker16", {
 				drawables: {
 					cam: [this.modelKarte1, this.modelKarte2, this.modelKarte3, this.modelKarte4, this.modelKarte5, this.modelKarte6, this.modelKarte7, this.modelKarte8, this.modelKarte9, this.modelKarte10, this.modelKarte11, this.modelKarte12, aufgabeWidget, gewonnenWidget]
 				}
 			});
 
-		var trackable_1 = new AR.Trackable2DObject(this.tracker, "marker16_1", {
+		this.trackable_1 = new AR.Trackable2DObject(this.tracker, "marker16_1", {
 				drawables: {
 					cam: [this.modelKarte1, this.modelKarte2, this.modelKarte3, this.modelKarte4, this.modelKarte5, this.modelKarte6, this.modelKarte7, this.modelKarte8, this.modelKarte9, this.modelKarte10, this.modelKarte11, this.modelKarte12, aufgabeWidget, gewonnenWidget]
 				}
@@ -519,7 +519,22 @@ var World = {
 			});
 
 		return new AR.AnimationGroup(AR.CONST.ANIMATION_GROUP_TYPE.PARALLEL, [sx, sy, sz, tx, ty, tz]);
-	}
+	},
+    
+    switchContentToInfo: function switchContentToInfoFn(){
+			World.trackable_1.enabled = false;
+			World.trackable.enabled = false;
+	},
+
+	switchContentToAR: function switchContentToARFn(){
+			World.trackable_1.enabled = true;
+			World.trackable.enabled = true;
+	},
+    
+	turnEverythingOff: function turnEverythingOffFn(){
+			World.trackable_1.enabled = false;
+			World.trackable.enabled = false;
+    }
 };
 
 World.init();

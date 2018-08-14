@@ -39,8 +39,11 @@ var World = {
 					cam : [videoStreit]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableStreit.enabled) {
 					videoStreit.resume();
 					document.location = "architectsdk://contentStarted_video";
+                        
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoStreit.pause();
@@ -53,8 +56,11 @@ var World = {
 					cam : [videoStreit]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableStreit_1.enabled) {
+                        
 					videoStreit.resume();
 					document.location = "architectsdk://contentStarted_video";
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoStreit.pause();

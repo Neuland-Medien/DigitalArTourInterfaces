@@ -5,7 +5,7 @@ var World = {
 	},
 
 	createOverlays : function createOverlaysFn() {
-		this.tracker = new AR.ClientTracker("../base/assets/tracker.wtc");
+		this.tracker = new AR.ClientTracker("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 
 		var trackableBasis = new AR.Trackable2DObject(this.tracker, "*", {
 				onEnterFieldOfVision : function (name) {
@@ -51,13 +51,16 @@ var World = {
 		videoGoldschatz.pause();
 		document.location = "architectsdk://contentStopped_video";
 
-		var trackableGoldschatz = new AR.Trackable2DObject(this.tracker, "marker10", {
+		this.trackableGoldschatz = new AR.Trackable2DObject(this.tracker, "marker10", {
 				drawables : {
 					cam : [videoGoldschatz, this.modelGoldschatz]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableGoldschatz.enabled) {
 					videoGoldschatz.resume();
 					document.location = "architectsdk://contentStarted_video";
+                        
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoGoldschatz.pause();
@@ -65,20 +68,68 @@ var World = {
 				}
 			});
 
-		var trackableGoldschatz_1 = new AR.Trackable2DObject(this.tracker, "marker10_1", {
+		this.trackableGoldschatz_1 = new AR.Trackable2DObject(this.tracker, "marker10_1", {
 				drawables : {
 					cam : [videoGoldschatz, this.modelGoldschatz]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableGoldschatz_1.enabled) {
 					videoGoldschatz.resume();
 					document.location = "architectsdk://contentStarted_video";
+                        
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoGoldschatz.pause();
 					document.location = "architectsdk://contentStopped_video";
 				}
 			});
-	}
+	},
+    
+    switchContentToInfo: function switchContentToInfoFn(){
+			for(i=0; i<World.trackableGoldschatz_1.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableGoldschatz_1.drawables.cam[i])){
+					World.trackableGoldschatz_1.drawables.cam[i].pause();
+				}
+			}
+			World.trackableGoldschatz_1.enabled = false;
+			for(i=0; i<World.trackableGoldschatz.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableGoldschatz.drawables.cam[i])){
+					World.trackableGoldschatz.drawables.cam[i].pause();
+				}
+			}
+			World.trackableGoldschatz.enabled = false;
+	},
+
+	switchContentToAR: function switchContentToARFn(){
+			for(i=0; i<World.trackableGoldschatz_1.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableGoldschatz_1.drawables.cam[i])){
+					World.trackableGoldschatz_1.drawables.cam[i].resume();
+				}
+			}
+			World.trackableGoldschatz_1.enabled = true;
+			for(i=0; i<World.trackableGoldschatz.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableGoldschatz.drawables.cam[i])){
+					World.trackableGoldschatz.drawables.cam[i].resume();
+				}
+			}
+			World.trackableGoldschatz.enabled = true;
+	},
+    
+	turnEverythingOff: function turnEverythingOffFn(){
+			for(i=0; i<World.trackableGoldschatz_1.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableGoldschatz_1.drawables.cam[i])){
+					World.trackableGoldschatz_1.drawables.cam[i].pause();
+				}
+			}
+			World.trackableGoldschatz_1.enabled = false;
+			for(i=0; i<World.trackableGoldschatz.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableGoldschatz.drawables.cam[i])){
+					World.trackableGoldschatz.drawables.cam[i].pause();
+				}
+			}
+			World.trackableGoldschatz.enabled = false;
+    }
 };
 
 World.init();

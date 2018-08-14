@@ -1,0 +1,1 @@
+var options_Fuerst = {"name":"Synagogengedenkstein","scale":{"x":1.72397,"y":1.72397,"z":1.72397},"translate":{"x":-0.01503443,"y":-0.7505048999999999,"z":0,"global":{"x":0,"y":0,"z":0}},"rotate":{"x":0,"y":0,"z":0,"global":{"x":0,"y":0,"z":0}}}

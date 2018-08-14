@@ -6,7 +6,7 @@ var World = {
 
 	createOverlays : function createOverlaysFn() {
 
-		this.tracker = new AR.ClientTracker("../base/assets/tracker.wtc");
+		this.tracker = new AR.ClientTracker("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 		var trackableBasis = new AR.Trackable2DObject(this.tracker, "*", {
 				onEnterFieldOfVision : function (name) {
 					//document.location = "architectsdk://modelontarget_"+name;
@@ -36,20 +36,49 @@ var World = {
 		videoSoldaten.pause();
 		document.location = "architectsdk://contentStopped_video";
 
-		var trackableSoldaten = new AR.Trackable2DObject(this.tracker, "marker3", {
+		this.trackableSoldaten = new AR.Trackable2DObject(this.tracker, "marker3", {
 				drawables : {
 					cam : [videoSoldaten]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
-					videoSoldaten.resume();
-					document.location = "architectsdk://contentStarted_video";
+                    if(World.trackableSoldaten.enabled) {
+                        videoSoldaten.resume();
+                        document.location = "architectsdk://contentStarted_video";
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoSoldaten.pause();
 					document.location = "architectsdk://contentStopped_video";
 				}
 			});
-	}
+	},
+    
+    switchContentToInfo: function switchContentToInfoFn(){
+			for(i=0; i<World.trackableSoldaten.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableSoldaten.drawables.cam[i])){
+					World.trackableSoldaten.drawables.cam[i].pause();
+				}
+			}
+			World.trackableSoldaten.enabled = false;
+	},
+
+	switchContentToAR: function switchContentToARFn(){
+			for(i=0; i<World.trackableSoldaten.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableSoldaten.drawables.cam[i])){
+					World.trackableSoldaten.drawables.cam[i].resume();
+				}
+			}
+			World.trackableSoldaten.enabled = true;
+	},
+    
+	turnEverythingOff: function turnEverythingOffFn(){
+			for(i=0; i<World.trackableSoldaten.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableSoldaten.drawables.cam[i])){
+					World.trackableSoldaten.drawables.cam[i].pause();
+				}
+			}
+			World.trackableSoldaten.enabled = false;
+    }
 };
 
 World.init();

@@ -5,7 +5,7 @@ var World = {
 	},
 
 	createOverlays : function createOverlaysFn() {
-		this.tracker = new AR.ClientTracker("../base/assets/tracker.wtc");
+		this.tracker = new AR.ClientTracker("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 		
 		var trackableBasis = new AR.Trackable2DObject(this.tracker, "*", {
 				onEnterFieldOfVision : function (name) {
@@ -39,7 +39,7 @@ var World = {
 				}
 			});
 
-		var trackableJudith = new AR.Trackable2DObject(this.tracker, "marker4", {
+		this.trackableJudith = new AR.Trackable2DObject(this.tracker, "marker4", {
 				drawables : {
 					cam : [this.judith]
 				},
@@ -52,7 +52,7 @@ var World = {
 				}
 			});
 
-		var trackableJudith_1 = new AR.Trackable2DObject(this.tracker, "marker4_1", {
+		this.trackableJudith_1 = new AR.Trackable2DObject(this.tracker, "marker4_1", {
 				drawables : {
 					cam : [this.judith]
 				},
@@ -64,7 +64,25 @@ var World = {
 					document.location = "architectsdk://contentStopped_animation";
 				}
 			});
-	}
+	},
+    
+    switchContentToInfo: function switchContentToInfoFn(){
+
+			World.trackableJudith_1.enabled = false;
+			World.trackableJudith.enabled = false;
+	},
+
+	switchContentToAR: function switchContentToARFn(){
+
+			World.trackableJudith_1.enabled = true;
+			World.trackableJudith.enabled = true;
+	},
+    
+	turnEverythingOff: function turnEverythingOffFn(){
+	
+			World.trackableJudith_1.enabled = false;
+			World.trackableJudith.enabled = false;
+    }
 
 };
 

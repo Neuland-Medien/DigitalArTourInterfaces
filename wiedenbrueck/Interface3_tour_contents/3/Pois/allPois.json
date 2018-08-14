@@ -1,4 +1,4 @@
-﻿[
+[
 	{
 		"name" : "Doktorplatz 5",
 		"description" : "Die “Münze”, um 1610 erbaut und als Apotheke und Arztpraxis genutzt.",
@@ -90,11 +90,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/3/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/3/augmentation/augmentation.json"
 			}
 		]
 	},	
@@ -123,11 +118,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/4/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/4/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -156,12 +146,7 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/5/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/5/augmentation/augmentation.json"
-			}
+			} 
 		]
 	},
 	{
@@ -193,11 +178,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/6/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/6/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -260,11 +240,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/8/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/8/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -293,11 +268,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/9/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/9/augmentation/augmentation.json"
 			}
 		]
 	},	
@@ -326,11 +296,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/10/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/10/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -392,11 +357,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/12/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/12/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -425,11 +385,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/13/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/13/augmentation/augmentation.json"
 			}
 		]
 	},

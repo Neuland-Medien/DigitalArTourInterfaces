@@ -5,7 +5,7 @@ var World = {
 	},
 
 	createOverlays : function createOverlaysFn() {
-		this.tracker = new AR.ClientTracker("../base/assets/tracker.wtc");
+		this.tracker = new AR.ClientTracker("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 
 		var trackableBasis = new AR.Trackable2DObject(this.tracker, "*", {
 				onEnterFieldOfVision : function (name) {
@@ -34,20 +34,50 @@ var World = {
 		videoBruderMartin.pause();
 		document.location = "architectsdk://contentStopped_video";
 
-		var trackableBruderMartin = new AR.Trackable2DObject(this.tracker, "marker20", {
+		this.trackableBruderMartin = new AR.Trackable2DObject(this.tracker, "marker20", {
 				drawables : {
 					cam : [videoBruderMartin]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableBruderMartin.enabled) {
+                        
 					videoBruderMartin.resume();
 					document.location = "architectsdk://contentStarted_video";
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoBruderMartin.pause();
 					document.location = "architectsdk://contentStopped_video";
 				}
 			});
-	}
+	},
+    
+    switchContentToInfo: function switchContentToInfoFn(){
+			for(i=0; i<World.trackableBruderMartin.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableBruderMartin.drawables.cam[i])){
+					World.trackableBruderMartin.drawables.cam[i].pause();
+				}
+			}
+			World.trackableBruderMartin.enabled = false;
+	},
+
+	switchContentToAR: function switchContentToARFn(){
+			for(i=0; i<World.trackableBruderMartin.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableBruderMartin.drawables.cam[i])){
+					World.trackableBruderMartin.drawables.cam[i].resume();
+				}
+			}
+			World.trackableBruderMartin.enabled = true;
+	},
+    
+	turnEverythingOff: function turnEverythingOffFn(){
+			for(i=0; i<World.trackableBruderMartin.drawables.cam.length; i++){
+				if(AR.VideoDrawable.prototype.isPrototypeOf(World.trackableBruderMartin.drawables.cam[i])){
+					World.trackableBruderMartin.drawables.cam[i].pause();
+				}
+			}
+			World.trackableBruderMartin.enabled = false;
+    }
 };
 
 World.init();

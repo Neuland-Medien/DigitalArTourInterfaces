@@ -38,8 +38,11 @@ var World = {
 					cam : [videoBruderMartin]
 				},
 				onEnterFieldOfVision : function onEnterFieldOfVisionFn() {
+                    if(World.trackableBruderMartin.enabled) {
+                        
 					videoBruderMartin.resume();
 					document.location = "architectsdk://contentStarted_video";
+                    }
 				},
 				onExitFieldOfVision : function onExitFieldOfVisionFn() {
 					videoBruderMartin.pause();
