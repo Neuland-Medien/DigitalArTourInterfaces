@@ -460,11 +460,12 @@ class RTModel extends AR.Model {
 }
 
 class RTVideo extends AR.VideoDrawable {
-    constructor(path, scaleFactor, optionsJSON, replayDrawable = null, repeating = true,trackablename) {
+    constructor(path, scaleFactor, optionsJSON, replayDrawable = null, repeating = true, transparent = false, trackablename) {
         var values = {
             translate: optionsJSON.translate,
             rotate: optionsJSON.rotate,
             scale: optionsJSON.scale,
+			isTransparent: transparent,
             onDragBegan: function (x, y) {
                 this.myOnDragBegan(x,y);
                 return true;
