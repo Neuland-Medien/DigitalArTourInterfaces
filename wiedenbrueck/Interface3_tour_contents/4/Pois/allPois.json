@@ -204,8 +204,8 @@
 	{
 		"name" : "Kleine Straße 9",
 		"description" : "Das Gebäude wurde um 1734 neu aufgerichtet und dient seit 1987 als Leinewebermuseum. Im Nachbarhaus wurde 1907 ein Anbau zur Zigarrenherstellung errichtet.",
-		"locationMapLat" : 51.85348,
-		"locationMapLong" : 8.290803,
+		"locationMapLat" : 51.85223,
+		"locationMapLong" : 8.290427,
 		"thumbnail" : "4/Pois/7/thumbnail.JPG",
 		"markerImage" : "4/Pois/7/markerImage.JPG",
 		"markerIds" : [
@@ -372,7 +372,7 @@
 		"description" : "Das Fachwerktraufenhaus mit Schmuckverschieferungen wurde 1834 als erste katholische Volksschule erbaut.",
 		"locationMapLat" : 51.855268,
 		"locationMapLong" : 8.291901,
-		"thumbnail" : "4/Pois/13/thumbnail.jpg",
+		"thumbnail" : "4/Pois/13/thumbnail.JPG",
 		"markerImage" : "4/Pois/13/markerImage.jpg",
 		"markerIds" : [
 			"marker13"
