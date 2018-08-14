@@ -10,6 +10,7 @@ var World = {
     switchContentToAR: function() {
         
     Schnittkerhaus.addToCam();
+        Schnittkerhaus.resume();
     },
     turnEverythingOff: function() {
         

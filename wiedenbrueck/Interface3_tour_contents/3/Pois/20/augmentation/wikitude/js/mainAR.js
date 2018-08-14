@@ -12,6 +12,7 @@ var World = {
     },
     switchContentToAR: function() {
       video.addToCam();
+        video.resume();
     },
     turnEverythingOff: function() { 
       video.removeFromCam();

@@ -14,6 +14,7 @@ var World = {
     },
     switchContentToAR: function() {
       video.addToCam();
+        video.resume();
       document.getElementById("clara").style.visibility = "hidden";
       document.getElementById("louis").style.visibility = "hidden";
     },

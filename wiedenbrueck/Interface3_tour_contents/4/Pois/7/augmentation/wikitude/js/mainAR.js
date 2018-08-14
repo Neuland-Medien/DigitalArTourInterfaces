@@ -13,6 +13,7 @@ var World = {
     switchContentToAR: function() {
         
     Schnittkerhaus.addToCam();
+        Schnittkerhaus.resume();
         
       document.getElementById("clara").style.visibility = "hidden";
       document.getElementById("louis").style.visibility = "hidden";
