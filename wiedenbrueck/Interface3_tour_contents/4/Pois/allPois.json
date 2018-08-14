@@ -335,39 +335,6 @@
 		]
 	},
 	{
-		"name" : "Hoppenstraße 11",
-		"description" : "Das schmalste Haus in Rheda. Es hat ein Außenmaß von 3,40 m und wurde 1600 von Hans Billerbeck errichtet.",
-		"locationMapLat" : 51.85348,
-		"locationMapLong" : 8.293323,
-		"thumbnail" : "4/Pois/11/thumbnail.JPG",
-		"markerImage" : "4/Pois/11/markerImage.JPG",
-		"markerIds" : [
-			"marker11"
-		],
-		"contents" : [
-			{
-				"name" : "Sprecher",
-				"contentType" : "AUDIO",
-				"mediaPath" : "4/Pois/11/audio.json"
-			},
-			{
-				"name" : "Beschreibungstext",
-				"contentType" : "TEXT",
-				"mediaPath" : "4/Pois/11/description.json"
-			},	
-			{
-				"name" : "Galery",
-				"contentType" : "GALERY",
-				"mediaPath" : "4/Pois/11/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/11/augmentation/augmentation.json"
-			}
-		]
-	},
-	{
 		"name" : "Wilhelmstraße 20a",
 		"description" : "Dieses stattliche Haus wurde 1926 vom jüdischen Wäschefabrikant Ernst Weinberg errichtet.",
 		"locationMapLat" : 51.855208,
@@ -529,39 +496,6 @@
 				"name" : "3dAnimation",
 				"contentType" : "WIKITUDE_AUGMENTATION",
 				"mediaPath" : "4/Pois/17/augmentation/augmentation.json"
-			}
-		]
-	},
-	{
-		"name" : "Wilhelmstraße 39",
-		"description" : "Diese Kirche wurde 1911/13 als Pfarrkirche St. Clemens errichtet.",
-		"locationMapLat" : 51.85536,
-		"locationMapLong" : 8.293645,
-		"thumbnail" : "4/Pois/18/thumbnail.JPG",
-		"markerImage" : "4/Pois/18/markerImage.jpg",
-		"markerIds" : [
-			"marker18"
-		],
-		"contents" : [
-			{
-				"name" : "Sprecher",
-				"contentType" : "AUDIO",
-				"mediaPath" : "4/Pois/18/audio.json"
-			},
-			{
-				"name" : "Beschreibungstext",
-				"contentType" : "TEXT",
-				"mediaPath" : "4/Pois/18/description.json"
-			},	
-			{
-				"name" : "Galery",
-				"contentType" : "GALERY",
-				"mediaPath" : "4/Pois/18/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/18/augmentation/augmentation.json"
 			}
 		]
 	},
