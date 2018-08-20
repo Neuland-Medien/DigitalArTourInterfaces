@@ -296,6 +296,11 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/10/galery/galery.json" 
+			},
+			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/10/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -324,11 +329,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/11/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/11/augmentation/augmentation.json"
 			}
 		]
 	},
