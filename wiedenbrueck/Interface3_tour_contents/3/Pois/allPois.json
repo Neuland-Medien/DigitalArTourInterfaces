@@ -66,7 +66,7 @@
 		]
 	},
 	{
-		"name" : "Berlinerstraße 6",
+		"name" : "Berlinerstraße 19",
 		"description" : "Dieses Mittelflurhaus wurde von Dorothea Susanna Schwenger 1732 erbaut, seit 1997/98 dient es als Hotel und Restaurant.",
 		"locationMapLat" : 51.852177,
 		"locationMapLong" : 8.291794,
@@ -182,15 +182,14 @@
 		]
 	},
 	{
-		"name" : "Kleine Straße 9",
+		"name" : "Kleine Straße 11",
 		"description" : "Das Gebäude wurde um 1734 neu aufgerichtet und dient seit 1987 als Leinewebermuseum. Im Nachbarhaus wurde 1907 ein Anbau zur Zigarrenherstellung errichtet.",
-		"locationMapLat" : 51.85223,
-		"locationMapLong" : 8.290427,
+		"locationMapLat" : 51.85348,
+		"locationMapLong" : 8.290803,
 		"thumbnail" : "3/Pois/7/thumbnail.JPG",
 		"markerImage" : "3/Pois/7/markerImage.JPG",
 		"markerIds" : [
-			"marker7",
-			"marker7b"
+			"marker7"
 		],
 		"contents" : [
 			{
@@ -365,7 +364,7 @@
 		"description" : "Das Fachwerktraufenhaus mit Schmuckverschieferungen wurde 1834 als erste katholische Volksschule erbaut.",
 		"locationMapLat" : 51.855268,
 		"locationMapLong" : 8.291901,
-		"thumbnail" : "3/Pois/13/thumbnail.JPG",
+		"thumbnail" : "3/Pois/13/thumbnail.jpg",
 		"markerImage" : "3/Pois/13/markerImage.jpg",
 		"markerIds" : [
 			"marker13"
@@ -564,7 +563,6 @@
 		"markerIds" : [
 			"marker20",
 			"marker20a",
-			"marker20b",
 			"marker20c",
 			"marker20d"
 		],

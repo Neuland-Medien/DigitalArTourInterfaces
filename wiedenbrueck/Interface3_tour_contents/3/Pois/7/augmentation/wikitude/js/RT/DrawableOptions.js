@@ -1,1 +1,1 @@
-var options_Schnittkerhaus = {"name":"Schnittkerhaus","scale":{"x":1.0941274925532525,"y":1.0941274925532525,"z":1.0941274925532525},"translate":{"x":-0.08674369999999998,"y":-0.6722086400000001,"z":0,"global":{"x":0,"y":0,"z":0}},"rotate":{"x":0,"y":0,"z":0,"global":{"x":0,"y":0,"z":0}}}
+var options_Schnittkerhaus = {"name":"Schnittkerhaus","scale":{"x":0.8868741301219262,"y":0.8868741301219262,"z":0.8868741301219262},"translate":{"x":0.01405311900000003,"y":-0.6147018699999999,"z":0,"global":{"x":0,"y":0,"z":0}},"rotate":{"x":0,"y":0,"z":0,"global":{"x":0,"y":0,"z":0}}}

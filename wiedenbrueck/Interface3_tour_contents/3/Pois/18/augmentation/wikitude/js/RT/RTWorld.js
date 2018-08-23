@@ -460,12 +460,11 @@ class RTModel extends AR.Model {
 }
 
 class RTVideo extends AR.VideoDrawable {
-    constructor(path, scaleFactor, optionsJSON, replayDrawable = null, repeating = true, transparent = false, trackablename) {
+    constructor(path, scaleFactor, optionsJSON, replayDrawable = null, repeating = true,trackablename) {
         var values = {
             translate: optionsJSON.translate,
             rotate: optionsJSON.rotate,
             scale: optionsJSON.scale,
-			isTransparent: transparent,
             onDragBegan: function (x, y) {
                 this.myOnDragBegan(x,y);
                 return true;
@@ -579,7 +578,7 @@ class RTVideo extends AR.VideoDrawable {
 
     addToCam() {
         allVisibleDrawables.push(this);
-        //this.resume();
+        this.resume();
         this.trackable.drawables.addCamDrawable(this);
         for (var i = 0; i < this.onAddToCamAnimations.length; i++) {
             if (this.onAddToCamAnimations[i].repeating) {
