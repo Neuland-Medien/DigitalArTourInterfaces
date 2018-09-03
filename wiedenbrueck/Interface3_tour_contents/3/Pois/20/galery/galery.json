@@ -1,9 +1,5 @@
 [
-    {
-        "path": "3/Pois/20/galery/galery_20_18.png",
-        "title": "Schloss Rheda u.a. Orangerie, Mühle",
-        "description": ""
-	},
+  
     {
         "path": "3/Pois/20/galery/galery_20_0.png",
         "title": "Schloss Rheda u.a. Orangerie, Mühle",
@@ -64,7 +60,7 @@
         "title": "Schloss Rheda u.a. Orangerie, Mühle",
         "description": "Kinderschlitten im Schloss"
 	},
-   
+
      {
         "path": "3/Pois/20/galery/galery_20_12.png",
         "title": "Schloss Rheda u.a. Orangerie, Mühle",
@@ -105,7 +101,7 @@
         "title": "Schloss Rheda u.a. Orangerie, Mühle",
         "description": "Schlossmühle um 1930."
 	}
-    
+
 
 
 ]
