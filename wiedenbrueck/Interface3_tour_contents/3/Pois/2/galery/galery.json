@@ -1,8 +1,4 @@
-[{
-        "path": "3/Pois/2/galery/galery_2_9.png",
-        "title": "Doktorplatz 6",
-        "description": ""
-	},
+[
     {
         "path": "3/Pois/2/galery/galery_2_0.png",
         "title": "Doktorplatz 6",
@@ -37,16 +33,6 @@
         "path": "3/Pois/2/galery/galery_2_6.png",
         "title": "Doktorplatz 6",
         "description": "Redendes Namenswappen „Geblähtes Segel“ für Cordula Segeler."
-	},
-    {
-        "path": "3/Pois/2/galery/galery_2_7.png",
-        "title": "Doktorplatz 6",
-        "description": "Neue Gütersloher Zeitung vom 26.08.1892."
-	},
-    {
-        "path": "3/Pois/2/galery/galery_2_8.png",
-        "title": "Doktorplatz 6",
-        "description": "Der Bote an der Ems vom 03.09.1892."
 	}
 
 ]

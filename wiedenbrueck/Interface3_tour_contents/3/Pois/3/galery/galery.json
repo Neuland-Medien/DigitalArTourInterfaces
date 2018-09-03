@@ -1,23 +1,18 @@
 [
     {
-        "path": "3/Pois/3/galery/galery_3_9.png",
-        "title": "Berliner Straße 19",
-        "description": ""
-	},
-    {
         "path": "3/Pois/3/galery/galery_3_0.png",
         "title": "Berliner Straße 19",
-        "description": "Gaststätte Robert Schneider um 1900."
+        "description": "Früher Gaststätte Robert Schneider um 1900."
 	},
     {
         "path": "3/Pois/3/galery/galery_3_1.png",
         "title": "Berliner Straße 19",
-        "description": "Doktorplatz um 1930 mit Gaststätte Robert Schneider, oben „Herberge zur Heimat“."
+        "description": "Doktorplatz um 1930 mit Gaststätte Robert Schneider, im Obergeschoss „Herberge zur Heimat“."
 	},
     {
         "path": "3/Pois/3/galery/galery_3_2.png",
         "title": "Berliner Straße 19",
-        "description": "Berliner Straße um 1960, vorne El Greco, oben: Herberge zur Heimat."
+        "description": "Berliner Straße um 1960, vorne Berliner Straße im Obergeschoss "Herberge zur Heimat"."
 	},
     {
         "path": "3/Pois/3/galery/galery_3_3.png",
