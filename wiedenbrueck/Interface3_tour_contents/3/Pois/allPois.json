@@ -95,7 +95,7 @@
 	},
 	{
 		"name" : "Berlinerstraße 22",
-		"description" : "Berliner Straße 22, Die barocke Stadtvilla beherbergte bis 1932 das Alte Amtsgericht.",
+		"description" : "Berliner Straße 22, die barocke Stadtvilla beherbergte bis 1932 das Alte Amtsgericht.",
 		"locationMapLat" : 51.85297,
 		"locationMapLong" : 8.292036,
 		"thumbnail" : "3/Pois/4/thumbnail.JPG",
@@ -150,8 +150,8 @@
 		]
 	},
 	{
-		"name" : "Großer Wall 40,42,44",
-		"description" : "Großer Wall 44 42 40 Typische Altstadthäuser. Vor den Haustüren findet man auf dem Boden verschiedene Handwerkerzeichen der damaligen Bewohner.",
+		"name" : "Großer Wall 42, 44, 40 und 23",
+		"description" : "Großer Wall 42, 44, 40 und 23 sind typische Altstadthäuser. Vor den Haustüren findet man auf dem Boden verschiedene Handwerkerzeichen der damaligen Bewohner.",
 		"locationMapLat" : 51.8519,
 		"locationMapLong" : 8.289604,
 		"thumbnail" : "3/Pois/6/thumbnail.JPG",
@@ -183,7 +183,7 @@
 	},
 	{
 		"name" : "Kleine Straße 11",
-		"description" : "Das Gebäude wurde um 1734 neu aufgerichtet und dient seit 1987 als Leinewebermuseum. ",
+		"description" : "Das Gebäude wurde um 1734 neu aufgerichtet und dient seit 1987 als Leinewebermuseum.",
 		"locationMapLat" : 51.85348,
 		"locationMapLong" : 8.290803,
 		"thumbnail" : "3/Pois/7/thumbnail.JPG",
@@ -454,7 +454,7 @@
 		]
 	},
 	{
-		"name" : "Rathausplatz 4, Stadtkirche ",
+		"name" : "Rathausplatz 4, Stadtkirche",
 		"description" : "1326 wurde die gotische “Heilig-Blut-Kapelle” gebaut, ab 1527 wurde sie im Zuge der Reformation evangelisch.",
 		"locationMapLat" : 51.853744,
 		"locationMapLong" : 8.290604,
@@ -563,8 +563,7 @@
 		"markerIds" : [
 			"marker20",
 			"marker20a",
-			"marker20c",
-			"marker20d"
+			"marker20c"
 		],
 		"contents" : [
 			{
@@ -586,6 +585,36 @@
 				"name" : "3dAnimation",
 				"contentType" : "WIKITUDE_AUGMENTATION",
 				"mediaPath" : "3/Pois/20/augmentation/augmentation.json"
+			}
+		]
+	},
+	
+	{
+		"name" : "Steinweg 2",
+		"description" : "1766 ließ der Kaufmann Johann Adolf Gircke dieses stattliche Bürgerpalais errichten.",
+		"locationMapLat" : 51.850929,
+		"locationMapLong" : 8.29582,
+		"thumbnail" : "3/Pois/20d/thumbnail.png",
+		"markerImage" : "3/Pois/20d/markerImage.jpg",
+
+		"markerIds" : [
+			"marker20d"
+		],
+		"contents" : [
+			{
+				"name" : "Sprecher",
+				"contentType" : "AUDIO",
+				"mediaPath" : "3/Pois/20d/audio.json"
+			},
+			{
+				"name" : "Beschreibungstext",
+				"contentType" : "TEXT",
+				"mediaPath" : "3/Pois/20d/description.json"
+			},
+			{
+				"name" : "Galery",
+				"contentType" : "GALERY",
+				"mediaPath" : "3/Pois/20d/galery/galery.json"
 			}
 		]
 	},
