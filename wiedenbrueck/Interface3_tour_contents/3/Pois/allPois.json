@@ -4,7 +4,7 @@
 		"description" : "Denktafel für Dr. Otto Lüning, rechts die Münze, um 1604 erbaut, bis 1674 erste Apotheke in Rheda.",
 		"locationMapLat" : 51.852107,
 		"locationMapLong" : 8.292081,
-		"thumbnail" : "3/Pois/1/thumbnail.JPG",
+		"thumbnail" : "3/Pois/1/thumbnail.jpg",
 		"markerImage" : "3/Pois/1/markerImage.jpg",
 		"markerIds" : [
 			"marker1"
@@ -154,8 +154,8 @@
 		"description" : "Großer Wall 42, 44, 40 und 23 sind typische Altstadthäuser. Vor den Haustüren findet man auf dem Boden verschiedene Handwerkerzeichen der damaligen Bewohner.",
 		"locationMapLat" : 51.8519,
 		"locationMapLong" : 8.289604,
-		"thumbnail" : "3/Pois/6/thumbnail.JPG",
-		"markerImage" : "3/Pois/6/markerImage.png",
+		"thumbnail" : "3/Pois/6/thumbnail.jpg",
+		"markerImage" : "3/Pois/6/markerImage.jpg",
 
 		"markerIds" : [
 			"marker6",
@@ -187,7 +187,7 @@
 		"locationMapLat" : 51.85348,
 		"locationMapLong" : 8.290803,
 		"thumbnail" : "3/Pois/7/thumbnail.JPG",
-		"markerImage" : "3/Pois/7/markerImage.JPG",
+		"markerImage" : "3/Pois/7/markerImage.jpg",
 		"markerIds" : [
 			"marker7"
 		],
@@ -219,7 +219,7 @@
 		"description" : "Wilhelm Fontaine stiftet der Stadt 1855 sein Wohnhaus zum 500. Jubiläum, um es als Rathaus zu nutzen.",
 		"locationMapLat" : 51.853789,
 		"locationMapLong" : 8.289517,
-		"thumbnail" : "3/Pois/8/thumbnail.JPG",
+		"thumbnail" : "3/Pois/8/thumbnail.jpg",
 		"markerImage" : "3/Pois/8/markerImage.jpg",
 		"markerIds" : [
 			"marker8"
@@ -248,7 +248,7 @@
 		"locationMapLat" : 51.853281,
 		"locationMapLong" : 8.290447,
 		"thumbnail" : "3/Pois/9/thumbnail.JPG",
-		"markerImage" : "3/Pois/9/markerImage.JPG",
+		"markerImage" : "3/Pois/9/markerImage.jpg",
 		"markerIds" : [
 			"marker9"
 		],
@@ -275,7 +275,7 @@
 		"description" : "Dieses Gebäude ist ein Beispiel für ein Kleinsthaus. Das Haus liegt an der ältesten Straße Rhedas.",
 		"locationMapLat" : 51.853125,
 		"locationMapLong" : 8.290773,
-		"thumbnail" : "3/Pois/10/thumbnail.JPG",
+		"thumbnail" : "3/Pois/10/thumbnail.jpg",
 		"markerImage" : "3/Pois/10/markerImage.jpg",
 		"markerIds" : [
 			"marker10"
@@ -308,8 +308,8 @@
 		"description" : "Das schmalste Haus in Rheda. Es hat ein Außenmaß von 3,40 m.",
 		"locationMapLat" : 51.85348,
 		"locationMapLong" : 8.293323,
-		"thumbnail" : "3/Pois/11/thumbnail.JPG",
-		"markerImage" : "3/Pois/11/markerImage.JPG",
+		"thumbnail" : "3/Pois/11/thumbnail.jpg",
+		"markerImage" : "3/Pois/11/markerImage.jpg",
 		"markerIds" : [
 			"marker11"
 		],
@@ -425,7 +425,7 @@
 		"description" : "Hermann Schnitker vermacht 1929 dieses Haus der evangelischen Kirchengemeinde.",
 		"locationMapLat" : 51.854492,
 		"locationMapLong" : 8.292952,
-		"thumbnail" : "3/Pois/15/thumbnail.JPG",
+		"thumbnail" : "3/Pois/15/thumbnail.jpg",
 		"markerImage" : "3/Pois/15/markerImage.jpg",
 		"markerIds" : [
 			"marker15"
