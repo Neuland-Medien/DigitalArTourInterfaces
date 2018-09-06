@@ -2,8 +2,8 @@
 	{
 		"name" : "Doktorplatz 5",
 		"description" : "Denktafel für Dr. Otto Lüning, rechts die Münze, um 1604 erbaut, bis 1674 erste Apotheke in Rheda.",
-		"locationMapLat" : 51.852107,
-		"locationMapLong" : 8.292081,
+		"locationMapLat" : 51.851972,
+		"locationMapLong" : 8.292167,
 		"thumbnail" : "3/Pois/1/thumbnail.jpg",
 		"markerImage" : "3/Pois/1/markerImage.jpg",
 		"markerIds" : [
@@ -35,8 +35,8 @@
 	{
 		"name" : "Doktorplatz 6",
 		"description" : "Das Gebäude wurde 1716 von Arzt und Kaufmann Hermann Andreas Wilmans erbaut. Das Besondere am Haus ist der Fassadenschmuck.",
-		"locationMapLat" : 51.852107,
-		"locationMapLong" : 8.292081,
+		"locationMapLat" : 51.851889,
+		"locationMapLong" : 8.292111,
 		"thumbnail" : "3/Pois/2/thumbnail.JPG",
 		"markerImage" : "3/Pois/2/markerImage.jpg",
 		"markerIds" : [
@@ -68,8 +68,8 @@
 	{
 		"name" : "Berlinerstraße 19",
 		"description" : "Dieses Mittelflurhaus wurde von Dorothea Susanna Schwenger 1732 erbaut, seit 1997/98 dient es als Hotel und Restaurant.",
-		"locationMapLat" : 51.852177,
-		"locationMapLong" : 8.291794,
+		"locationMapLat" : 51.852167,
+		"locationMapLong" : 8.291694,
 		"thumbnail" : "3/Pois/3/thumbnail.jpg",
 		"markerImage" : "3/Pois/3/markerImage.jpg",
 		"markerIds" : [
@@ -96,8 +96,8 @@
 	{
 		"name" : "Berlinerstraße 22",
 		"description" : "Berliner Straße 22, die barocke Stadtvilla beherbergte bis 1932 das Alte Amtsgericht.",
-		"locationMapLat" : 51.85297,
-		"locationMapLong" : 8.292036,
+		"locationMapLat" : 51.853000,
+		"locationMapLong" : 8.291917,
 		"thumbnail" : "3/Pois/4/thumbnail.jpg",
 		"markerImage" : "3/Pois/4/markerImage.jpg",
 		"markerIds" : [
@@ -124,8 +124,8 @@
 	{
 		"name" : "Großer Wall 68",
 		"description" : "Eines der ältesten Fachwerkhäuser Rhedas, das 1564/65 erbaut worden ist.",
-		"locationMapLat" : 51.851846,
-		"locationMapLong" : 8.29349,
+		"locationMapLat" : 51.851722,
+		"locationMapLong" : 8.291500,
 		"thumbnail" : "3/Pois/5/thumbnail.JPG",
 		"markerImage" : "3/Pois/5/markerImage.jpg",
 		"markerIds" : [
@@ -152,8 +152,8 @@
 	{
 		"name" : "Großer Wall 42, 44, 40 und 23",
 		"description" : "Großer Wall 42, 44, 40 und 23 sind typische Altstadthäuser. Vor den Haustüren findet man auf dem Boden verschiedene Handwerkerzeichen der damaligen Bewohner.",
-		"locationMapLat" : 51.8519,
-		"locationMapLong" : 8.289604,
+		"locationMapLat" : 51.851972,
+		"locationMapLong" : 8.289611,
 		"thumbnail" : "3/Pois/6/thumbnail.jpg",
 		"markerImage" : "3/Pois/6/markerImage.jpg",
 
@@ -184,8 +184,8 @@
 	{
 		"name" : "Kleine Straße 11",
 		"description" : "Das Gebäude wurde um 1734 neu aufgerichtet und dient seit 1987 als Leinewebermuseum.",
-		"locationMapLat" : 51.85348,
-		"locationMapLong" : 8.290803,
+		"locationMapLat" : 51.852306,
+		"locationMapLong" : 8.290278,
 		"thumbnail" : "3/Pois/7/thumbnail.JPG",
 		"markerImage" : "3/Pois/7/markerImage.jpg",
 		"markerIds" : [
@@ -217,8 +217,8 @@
 	{
 		"name" : "Rathausplatz",
 		"description" : "Wilhelm Fontaine stiftet der Stadt 1855 sein Wohnhaus zum 500. Jubiläum, um es als Rathaus zu nutzen.",
-		"locationMapLat" : 51.853789,
-		"locationMapLong" : 8.289517,
+		"locationMapLat" : 51.853667,
+		"locationMapLong" : 8.290028,
 		"thumbnail" : "3/Pois/8/thumbnail.jpg",
 		"markerImage" : "3/Pois/8/markerImage.jpg",
 		"markerIds" : [
@@ -245,8 +245,8 @@
 	{
 		"name" : "Nadelstraße 2",
 		"description" : "Dieses Haus wurde 1752 als Pfarrhaus der evangelischen Gemeinde errichtet.",
-		"locationMapLat" : 51.853281,
-		"locationMapLong" : 8.290447,
+		"locationMapLat" : 51.853222,
+		"locationMapLong" : 8.290444,
 		"thumbnail" : "3/Pois/9/thumbnail.JPG",
 		"markerImage" : "3/Pois/9/markerImage.jpg",
 		"markerIds" : [
@@ -273,8 +273,8 @@
 	{
 		"name" : "Nadelstraße 6",
 		"description" : "Dieses Gebäude ist ein Beispiel für ein Kleinsthaus. Das Haus liegt an der ältesten Straße Rhedas.",
-		"locationMapLat" : 51.853125,
-		"locationMapLong" : 8.290773,
+		"locationMapLat" : 51.853111,
+		"locationMapLong" : 8.290778,
 		"thumbnail" : "3/Pois/10/thumbnail.jpg",
 		"markerImage" : "3/Pois/10/markerImage.jpg",
 		"markerIds" : [
@@ -306,8 +306,8 @@
 	{
 		"name" : "Hoppenstraße 11",
 		"description" : "Das schmalste Haus in Rheda. Es hat ein Außenmaß von 3,40 m.",
-		"locationMapLat" : 51.85348,
-		"locationMapLong" : 8.293323,
+		"locationMapLat" : 51.853472, 
+		"locationMapLong" : 8.293389,
 		"thumbnail" : "3/Pois/11/thumbnail.jpg",
 		"markerImage" : "3/Pois/11/markerImage.jpg",
 		"markerIds" : [
@@ -334,8 +334,8 @@
 	{
 		"name" : "Wilhelmstraße 20a",
 		"description" : "Dieses stattliche Haus wurde 1926 vom jüdischen Wäschefabrikant Ernst Weinberg errichtet.",
-		"locationMapLat" : 51.855208,
-		"locationMapLong" : 8.290773,
+		"locationMapLat" : 51.855111,
+		"locationMapLong" : 8.290667,
 		"thumbnail" : "3/Pois/12/thumbnail.JPG",
 		"markerImage" : "3/Pois/12/markerImage.jpg",
 		"markerIds" : [
@@ -362,8 +362,8 @@
 	{
 		"name" : "Wilhelmstraße 30",
 		"description" : "Das Fachwerktraufenhaus mit Schmuckverschieferungen wurde 1834 als erste katholische Volksschule erbaut.",
-		"locationMapLat" : 51.855268,
-		"locationMapLong" : 8.291901,
+		"locationMapLat" : 51.855333,
+		"locationMapLong" : 8.291944,
 		"thumbnail" : "3/Pois/13/thumbnail.jpg",
 		"markerImage" : "3/Pois/13/markerImage.jpg",
 		"markerIds" : [
@@ -390,8 +390,8 @@
 	{
 		"name" : "Am Domhof 1",
 		"description" : "Dieses Hallenhaus wurde 1616 von Eberhard Huck errichtet. Seit 1986 steht dieses Gebäude unter Denkmalschutz.",
-		"locationMapLat" : 51.853125,
-		"locationMapLong" : 8.29349,
+		"locationMapLat" : 51.853917,
+		"locationMapLong" : 8.293611,
 		"thumbnail" : "3/Pois/14/thumbnail.JPG",
 		"markerImage" : "3/Pois/14/markerImage.jpg",
 		"markerIds" : [
@@ -423,8 +423,8 @@
 	{
 		"name" : "Berliner Straße 57, Schnitkerhaus",
 		"description" : "Hermann Schnitker vermacht 1929 dieses Haus der evangelischen Kirchengemeinde.",
-		"locationMapLat" : 51.854492,
-		"locationMapLong" : 8.292952,
+		"locationMapLat" : 51.854583,
+		"locationMapLong" : 8.293083,
 		"thumbnail" : "3/Pois/15/thumbnail.jpg",
 		"markerImage" : "3/Pois/15/markerImage.jpg",
 		"markerIds" : [
@@ -456,8 +456,8 @@
 	{
 		"name" : "Rathausplatz 4, Stadtkirche",
 		"description" : "1326 wurde die gotische “Heilig-Blut-Kapelle” gebaut, ab 1527 wurde sie im Zuge der Reformation evangelisch.",
-		"locationMapLat" : 51.853744,
-		"locationMapLong" : 8.290604,
+		"locationMapLat" : 51.853750,
+		"locationMapLong" : 8.290750,
 		"thumbnail" : "3/Pois/17/thumbnail.JPG",
 		"markerImage" : "3/Pois/17/markerImage.jpg",
 		"markerIds" : [
@@ -489,8 +489,8 @@
 	{
 		"name" : "Wilhelmstraße 39, Clemenskirche",
 		"description" : "Diese neuromanische Basilika wurde 1911/13 als Pfarrkirche St. Clemens errichtet.",
-		"locationMapLat" : 51.85536,
-		"locationMapLong" : 8.293645,
+		"locationMapLat" : 51.855389,
+		"locationMapLong" : 8.293694,
 		"thumbnail" : "3/Pois/18/thumbnail.JPG",
 		"markerImage" : "3/Pois/18/markerImage.jpg",
 		"markerIds" : [
@@ -522,8 +522,8 @@
 	{
 		"name" : "Steinweg 1",
 		"description" : "1827 wurde dieses Haus von dem Juden Abraham Leser, dem Vorsteher der Judengemeinde, erbaut.",
-		"locationMapLat" : 51.851787,
-		"locationMapLong" : 8.292825,
+		"locationMapLat" : 51.851694,
+		"locationMapLong" : 8.293194,
 		"thumbnail" : "3/Pois/19/thumbnail.JPG",
 		"markerImage" : "3/Pois/19/markerImage.jpg",
 		"markerIds" : [
@@ -555,8 +555,8 @@
 	{
 		"name" : "Schloss Rheda",
 		"description" : "Das Schloss ist eine Wasserburg aus dem 12. Jahrhundert im Besitz der Familie Bentheim-Tecklenburg",
-		"locationMapLat" : 51.850929,
-		"locationMapLong" : 8.29582,
+		"locationMapLat" : 51.850861,
+		"locationMapLong" : 8.296056,
 		"thumbnail" : "3/Pois/20/thumbnail.jpg",
 		"markerImage" : "3/Pois/20/markerImage.jpg",
 
@@ -592,8 +592,8 @@
 	{
 		"name" : "Steinweg 2",
 		"description" : "1766 ließ der Kaufmann Johann Adolf Gircke dieses stattliche Bürgerpalais errichten.",
-		"locationMapLat" : 51.850929,
-		"locationMapLong" : 8.29582,
+		"locationMapLat" : 51.851750,
+		"locationMapLong" : 8.292778,
 		"thumbnail" : "3/Pois/20d/thumbnail.png",
 		"markerImage" : "3/Pois/20d/markerImage.jpg",
 
