@@ -1,7 +1,7 @@
 var allDrawables = [];
 var allVisibleDrawables = [];
 var editable = false;
-var targetCollectionResource = new AR.TargetCollectionResource("assets/tracker.wtc");
+var targetCollectionResource = new AR.TargetCollectionResource("../../../../baseAugmentation/wikitude/assets/tracker.wtc");
 var tracker = new AR.ImageTracker(targetCollectionResource);
 var trackableBasis = new AR.ImageTrackable(tracker, "*", {
     onImageRecognized: function (name) {
@@ -460,12 +460,12 @@ class RTModel extends AR.Model {
 }
 
 class RTVideo extends AR.VideoDrawable {
-    constructor(path, scaleFactor, optionsJSON, replayDrawable = null, repeating = true, transparent = false, trackablename) {
+    constructor(path, scaleFactor, optionsJSON, replayDrawable = null, repeating = true,trackablename) {
         var values = {
             translate: optionsJSON.translate,
             rotate: optionsJSON.rotate,
             scale: optionsJSON.scale,
-			isTransparent: transparent,
+            isTransparent: true,
             onDragBegan: function (x, y) {
                 this.myOnDragBegan(x,y);
                 return true;
