@@ -7,8 +7,9 @@ var audioARon_2 = new RTImage("assets/audioARon.png",1,options_audioARon,trackab
 var sound = new AR.Sound("assets/audio.mp3");
 sound.load();
 audioaroff.onClickAdditions=turnOn();
-
 audioARon.onClickAdditions=turnOff();
+audioaroff_2.onClickAdditions=turnOn();
+audioARon_2.onClickAdditions=turnOff();
 
 sound.onFinishedPlaying=endOfTrack();
 
