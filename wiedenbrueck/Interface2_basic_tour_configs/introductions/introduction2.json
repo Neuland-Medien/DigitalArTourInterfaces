@@ -2,12 +2,12 @@
 	{
 		"path" : "introductions/introduction_0.png",
 		"title" : "Herzlich Willkommen!",
-		"description" : "Bei der digitalen Stadtführung kannst du den historischen Stadtkern von Wiedenbrück auf eigene Faust erkunden. Dabei werden die verschiedensten Informationen an den Gebäuden angezeigt, um mehr über die Vergangenheit der Stadt zu erfahren."
+		"description" : "Bei der digitalen Stadtführung kannst du den historischen Stadtkern von Wiedenbrück auf eigene Faust erkunden. Dabei werden die verschiedensten Informationen an den Gebäuden angezeigt, um mehr Ã¼ber die Vergangenheit der Stadt zu erfahren."
 	},
 	{
 		"path" : "introductions/introduction_1.png",
 		"title" : "Häuser scannen",
-		"description" : "Nutze den \" Haus scannen \"-Button, wenn du unmittelbar vor einem Gebäude der Stadtführugn stehst. Die Vorschaufunktion unten zeigt vorher den Teil des Gebäudes an, der hierfür eingescannt werden soll."
+		"description" : "Nutze den \"Haus scannen\"-Button, wenn du unmittelbar vor einem Gebäude der Stadtführung stehst. Die Vorschaufunktion unten zeigt vorher den Teil des Gebäudes an, der hierfür eingescannt werden soll."
 	},
 	{
 		"path" : "introductions/introduction_2.png",
