@@ -99,9 +99,10 @@
 		"locationMapLat" : 51.853000,
 		"locationMapLong" : 8.291917,
 		"thumbnail" : "3/Pois/4/thumbnail.jpg",
-		"markerImage" : "3/Pois/4/markerImage.jpg",
+		"markerImage" : "3/Pois/4/markerImage.png",
 		"markerIds" : [
-			"marker4"
+			"marker4",
+			"marker4_2"
 		],
 		"contents" : [
 			{
@@ -311,7 +312,8 @@
 		"thumbnail" : "3/Pois/11/thumbnail.jpg",
 		"markerImage" : "3/Pois/11/markerImage.jpg",
 		"markerIds" : [
-			"marker11"
+			"marker11",
+			"marker11_2"
 		],
 		"contents" : [
 			{
@@ -461,7 +463,8 @@
 		"thumbnail" : "3/Pois/17/thumbnail.JPG",
 		"markerImage" : "3/Pois/17/markerImage.jpg",
 		"markerIds" : [
-			"marker17"
+			"marker17",
+			"marker17_2"
 		],
 		"contents" : [
 			{
@@ -558,12 +561,13 @@
 		"locationMapLat" : 51.850861,
 		"locationMapLong" : 8.296056,
 		"thumbnail" : "3/Pois/20/thumbnail.jpg",
-		"markerImage" : "3/Pois/20/markerImage.jpg",
+		"markerImage" : "3/Pois/20/markerImage.png",
 
 		"markerIds" : [
 			"marker20",
 			"marker20a",
-			"marker20c"
+			"marker20c",
+			"marker20_2"
 		],
 		"contents" : [
 			{
@@ -598,7 +602,7 @@
 		"markerImage" : "3/Pois/20d/markerImage.jpg",
 
 		"markerIds" : [
-			"marker20d"
+			"marker21"
 		],
 		"contents" : [
 			{
