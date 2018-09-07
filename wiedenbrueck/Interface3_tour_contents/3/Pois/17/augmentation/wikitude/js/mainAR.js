@@ -6,12 +6,25 @@ var audioaroff_2 = new RTImage("assets/audioaroff.png",1,options_audioaroff,trac
 var audioARon_2 = new RTImage("assets/audioARon.png",1,options_audioARon,trackable_rhedaMarker17_2);
 var sound = new AR.Sound("assets/audio.mp3");
 sound.load();
-audioaroff.onClickAdditions=turnOn();
-audioARon.onClickAdditions=turnOff();
-audioaroff_2.onClickAdditions=turnOn();
-audioARon_2.onClickAdditions=turnOff();
+audioaroff.onClickAdditions=function(){
+    turnOn();
+}
+audioARon.onClickAdditions=function(){
+    turnOff()
+};
+audioaroff_2.onClickAdditions=function(){
+    turnOn()
+};
+audioARon_2.onClickAdditions=function(){
+    turnOff()
+};
 
-sound.onFinishedPlaying=endOfTrack();
+sound.onFinishedPlaying=function(){
+    audioaroff.addToCam();
+    audioARon.removeFromCam();
+    audioaroff_2.addToCam();
+    audioARon_2.removeFromCam();
+}
 
 audioaroff.addToCam();
 audioaroff_2.addToCam();
@@ -25,13 +38,6 @@ function turnON(){
 }
 function turnOff(){
     sound.pause();
-    audioaroff.addToCam();
-    audioARon.removeFromCam();
-    audioaroff_2.addToCam();
-    audioARon_2.removeFromCam();
-}
-function endOfTrack()
-{
     audioaroff.addToCam();
     audioARon.removeFromCam();
     audioaroff_2.addToCam();
