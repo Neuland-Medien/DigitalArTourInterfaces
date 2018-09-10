@@ -1,8 +1,25 @@
-var trackable_rhedaMarker02 = new RTTrackable("marker1");
+var trackable_rhedaMarker06 = new RTTrackable("marker6");
 
 //drawables erstellen
+var drawable1 = new RTModel("assets/memory1.wt3", options_karte1,trackable_rhedaMarker06);
+var drawable2 = new RTModel("assets/memory1.wt3", options_karte2,trackable_rhedaMarker06);
+var drawable3 = new RTModel("assets/memory1.wt3", options_karte3,trackable_rhedaMarker06);
+var drawable4 = new RTModel("assets/memory1.wt3", options_karte4,trackable_rhedaMarker06);
+drawable1.addToCam();
+drawable2.addToCam();
+drawable3.addToCam();
+drawable4.addToCam();
+
+
 //pairs mit den drawables erstellen
+var pair1 = new RTMemoryPair(drawable1, drawable2);
+var pair2 = new RTMemoryPair(drawable3, drawable4);
+var pairs = [pair1, pair2];
 //memory aus den pairs erstellen
+var memory = new RTMemory(pairs, 0, 0);
+alert("shuffelt jetzt:");
+memory.shuffleCards();
+alert("geshuffelt");
 
 /**
 var audioaroff = new RTImage("assets/audioaroff.png",1,options_audioaroff,trackable_rhedaMarker02);
@@ -25,7 +42,6 @@ sound.onFinishedPlaying=function(){
   audioARon.removeFromCam();
 }
 audioaroff.addToCam();
-*/
 
 var World = {
     switchContentToInfo: function() {
@@ -41,4 +57,7 @@ var World = {
       audioARon.removeFromCam();
       audioaroff.removeFromCam();
     }
+    
 };
+alert("Ende");
+*/
