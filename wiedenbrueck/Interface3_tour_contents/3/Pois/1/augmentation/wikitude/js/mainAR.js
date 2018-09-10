@@ -14,12 +14,11 @@ audioARon.onClickAdditions=function(){
   audioaroff.addToCam();
   audioARon.removeFromCam();
 };
-
 sound.onFinishedPlaying=function(){
   audioaroff.addToCam();
   audioARon.removeFromCam();
 }
-audioaroff.addToCam();  
+audioaroff.addToCam();
 
 var World = {
     switchContentToInfo: function() {
