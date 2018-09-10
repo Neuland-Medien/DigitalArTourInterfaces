@@ -1,1 +1,1 @@
-var options_Fuerst = {"name":"Fuerst","scale":{"x":1.2480331685400001,"y":1.2480331685400001,"z":1.2480331685400001},"translate":{"x":-0.028551989999999982,"y":-0.87246788,"z":0,"global":{"x":0,"y":0,"z":0}},"rotate":{"x":0,"y":0,"z":0,"global":{"x":0,"y":0,"z":0}}}
+var options_Fuerst = {"name":"Fuerst","scale":{"x":2.5,"y":2.5,"z":2.5},"translate":{"x":-1.2,"y":-1,"z":0,"global":{"x":0,"y":0,"z":0}},"rotate":{"x":0,"y":0,"z":0,"global":{"x":0,"y":0,"z":0}}}
