@@ -139,6 +139,15 @@ class RTMemory{
             //alert(pairs[i].card2.translate.x);
         }
         
+        for(var i = 0; i < pairs.length; i++)
+        {
+            pairs[i].card1.translate.x = 0;
+            pairs[i].card1.translate.y = 0;
+            pairs[i].card1.translate.z = i/20;
+            pairs[i].card2.translate.x = 0;
+            pairs[i].card2.translate.y = 0;
+            pairs[i].card2.translate.z = i/20;
+        }
         
     /**
 		this.positions = [
@@ -273,12 +282,7 @@ class RTMemory{
 	}
 
 	shuffleCards(){
-        for(var i = 0; i < this.allCards.length; i++)
-        {
-            this.allCards[i].translate.x = 0;
-            this.allCards[i].translate.y = 0;
-            this.allCards[i].translate.z = i/8;
-        }
+        
         
 		this.counter = [];
 		for (var i = 0; i < this.positions.length; i++) {
