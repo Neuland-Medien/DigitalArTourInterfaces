@@ -277,7 +277,7 @@ class RTMemory{
         {
             this.allCards[i].translate.x = 0;
             this.allCards[i].translate.y = 0;
-            this.allCards[i].translate.z = 0;
+            this.allCards[i].translate.z = i/8;
         }
         
 		this.counter = [];
