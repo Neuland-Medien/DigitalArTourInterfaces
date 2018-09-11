@@ -128,10 +128,13 @@ class RTMemory{
 		this.turnedCard = null;
 		this.pairs = [];
 		this.successCount = 0;
+        
+        this.positions = [];
      
         for(var i = 0; i < pairs.length; i++)
         {
-            this.positions = [[pairs[i].card1.translate.x, pairs[i].card1.translate.y, pairs[i].card1.translate.z], [pairs[i].card2.translate.x, pairs[i].card2.translate.y, pairs[i].card2.translate.z]];
+            this.positions.push([pairs[i].card1.translate.x, pairs[i].card1.translate.y, pairs[i].card1.translate.z]);
+            this.positions.push([pairs[i].card2.translate.x, pairs[i].card2.translate.y, pairs[i].card2.translate.z]);
             //alert(pairs[i].card1.translate.x);
             //alert(pairs[i].card2.translate.x);
         }
@@ -270,43 +273,45 @@ class RTMemory{
 	}
 
 	shuffleCards(){
+        for(var i = 0; i < this.allCards.length; i++)
+        {
+            this.allCards[i].translate.x = 0;
+            this.allCards[i].translate.y = 0;
+            this.allCards[i].translate.z = 0;
+        }
+        
 		this.counter = [];
-		for (var i = 0; i < pairs.length*2; i++) {
+		for (var i = 0; i < this.positions.length; i++) {
 			do {
-				var j = Math.random() * pairs.length*2;
+				var j = Math.random() * this.positions.length;
 				j = Math.trunc(j);
 			} while (this.counter.indexOf(j) != -1)
 			this.counter.push(j);
 		}
+       // alert("counterlänge" + this.counter.length);
 		for(var i = 0; i<this.allCards.length;i++){
-            alert("4");
 			var card = this.allCards[i];
-                        alert("5");
-            alert(i);
-            alert(counter[i]);
-            alert(this.positions[this.counter[i]][0])
-            card.translate.x = this.positions[this.counter[i]][0];
-                        alert("6");
-			card.translate.y = this.positions[this.counter[i]][1];
             
-            /*
-            //alter Code
+            //alert("i: " + i);
+            //alert("counter[i]: " + this.counter[i]);
+            //alert(this.positions[this.counter[i]][0]);
+            
+            //card.translate.x = this.positions[this.counter[i]][0];
+			//card.translate.y = this.positions[this.counter[i]][1];
+            
 			card.positionX = this.positions[this.counter[i]][0];
-                        alert("6");
 			card.positionY = this.positions[this.counter[i]][1];
-            */
-                        alert("7");
-			card.positionZ = card.translate.z;
-            alert("8");
+			card.positionZ = this.positions[this.counter[i]][2];
+            
+            
+            
 			var anim = createMoveToPositionAnim(this.allCards[i],1000,card.positionX,card.positionY,0);
-			anim.card = card;
-            alert("9");
+			//anim.card = card;
 
 			anim.onFinish = function(){
 				this.card.translate.x = this.card.positionX;
 				this.card.translate.y = this.card.positionY;
 				this.card.translate.z = 0;
-                alert("10");
 			}
 			anim.start();
 		}
