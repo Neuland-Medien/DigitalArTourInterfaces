@@ -2,8 +2,8 @@
 	{
 		"name" : "Doktorplatz 5",
 		"description" : "Denktafel für Dr. Otto Lüning, rechts die Münze, um 1604 erbaut, bis 1674 erste Apotheke in Rheda.",
-		"locationMapLat" : 51.852107,
-		"locationMapLong" : 8.292081,
+		"locationMapLat" : 51.851972,
+		"locationMapLong" : 8.292167,
 		"thumbnail" : "4/Pois/1/thumbnail.JPG",
 		"markerImage" : "4/Pois/1/markerImage.jpg",
 		"markerIds" : [
@@ -35,8 +35,8 @@
 	{
 		"name" : "Doktorplatz 6",
 		"description" : "Das Gebäude wurde 1716 von Arzt und Kaufmann Hermann Andreas Wilmans erbaut. Das Besondere am Haus ist der Fassadenschmuck.",
-		"locationMapLat" : 51.852107,
-		"locationMapLong" : 8.292081,
+		"locationMapLat" : 51.851889,
+		"locationMapLong" : 8.292111,
 		"thumbnail" : "4/Pois/2/thumbnail.JPG",
 		"markerImage" : "4/Pois/2/markerImage.jpg",
 		"markerIds" : [
@@ -66,10 +66,10 @@
 		]
 	},
 	{
-		"name" : "Berlinerstraße 6",
+		"name" : "Berlinerstraße 19",
 		"description" : "Dieses Mittelflurhaus wurde von Dorothea Susanna Schwenger 1732 erbaut, seit 1997/98 dient es als Hotel und Restaurant.",
-		"locationMapLat" : 51.852177,
-		"locationMapLong" : 8.291794,
+		"locationMapLat" : 51.852167,
+		"locationMapLong" : 8.291694,
 		"thumbnail" : "4/Pois/3/thumbnail.JPG",
 		"markerImage" : "4/Pois/3/markerImage.jpg",
 		"markerIds" : [
@@ -101,8 +101,8 @@
 	{
 		"name" : "Berlinerstraße 22",
 		"description" : "Die Stadtvilla wurde über mehrere Jahre errichtet. Sie ist ein neunachsiger Barockbau mit Mansarddach, klassizistischem Treppenhaus und Gewölbekeller.",
-		"locationMapLat" : 51.85297,
-		"locationMapLong" : 8.292036,
+		"locationMapLat" : 51.853000,
+		"locationMapLong" : 8.291917,
 		"thumbnail" : "4/Pois/4/thumbnail.JPG",
 		"markerImage" : "4/Pois/4/markerImage.jpg",
 		"markerIds" : [
@@ -134,8 +134,8 @@
 	{
 		"name" : "Großer Wall 68",
 		"description" : "Eines der ältesten Fachwerkhäuser Rhedas, das 1564/65 erbaut worden ist.",
-		"locationMapLat" : 51.851846,
-		"locationMapLong" : 8.29349,
+		"locationMapLat" : 51.851722,
+		"locationMapLong" : 8.291500,
 		"thumbnail" : "4/Pois/5/thumbnail.JPG",
 		"markerImage" : "4/Pois/5/markerImage.jpg",
 		"markerIds" : [
@@ -167,8 +167,8 @@
 	{
 		"name" : "Großer Wall 40,42,44",
 		"description" : "Diese Häuser sind Handwerkerhäuser, vor denen sich verschiedene Meisterzeichen der Bewohner befinden.",
-		"locationMapLat" : 51.8519,
-		"locationMapLong" : 8.289604,
+		"locationMapLat" : 51.851972,
+		"locationMapLong" : 8.289611,
 		"thumbnail" : "4/Pois/6/thumbnail.JPG",
 		"markerImage" : "4/Pois/6/markerImage.png",
 						
@@ -204,8 +204,8 @@
 	{
 		"name" : "Kleine Straße 9",
 		"description" : "Das Gebäude wurde um 1734 neu aufgerichtet und dient seit 1987 als Leinewebermuseum. Im Nachbarhaus wurde 1907 ein Anbau zur Zigarrenherstellung errichtet.",
-		"locationMapLat" : 51.85223,
-		"locationMapLong" : 8.290427,
+		"locationMapLat" : 51.852306,
+		"locationMapLong" : 8.290278,
 		"thumbnail" : "4/Pois/7/thumbnail.JPG",
 		"markerImage" : "4/Pois/7/markerImage.JPG",
 		"markerIds" : [
@@ -238,8 +238,8 @@
 	{
 		"name" : "Rathausplatz",
 		"description" : "Wilhelm Fontaine stifte 1855 sein Wohnhaus zum 500. Jubiläum der Stadt, um es als Rathaus zu nutzen.",
-		"locationMapLat" : 51.853789,
-		"locationMapLong" : 8.289517,
+		"locationMapLat" : 51.853667,
+		"locationMapLong" : 8.290028,
 		"thumbnail" : "4/Pois/8/thumbnail.JPG",
 		"markerImage" : "4/Pois/8/markerImage.jpg",
 		"markerIds" : [
@@ -271,8 +271,8 @@
 	{
 		"name" : "Nadelstraße 2",
 		"description" : "Dieses Haus wurde 1752 als Pfarrhaus von der evangelischen Gemeinde Rheda erbaut.",
-		"locationMapLat" : 51.853281,
-		"locationMapLong" : 8.290447,
+		"locationMapLat" : 51.853222,
+		"locationMapLong" : 8.290444,
 		"thumbnail" : "4/Pois/9/thumbnail.JPG",
 		"markerImage" : "4/Pois/9/markerImage.JPG",
 		"markerIds" : [
@@ -304,8 +304,8 @@
 	{
 		"name" : "Nadelstraße 6",
 		"description" : "Dieses Gebäude ist ein Beispiel für ein Kleinsthaus. Das Haus liegt an der ältesten Straße Rhedas.",
-		"locationMapLat" : 51.853125,
-		"locationMapLong" : 8.290773,
+		"locationMapLat" : 51.853111,
+		"locationMapLong" : 8.290778,
 		"thumbnail" : "4/Pois/10/thumbnail.JPG",
 		"markerImage" : "4/Pois/10/markerImage.jpg",
 		"markerIds" : [
@@ -337,8 +337,8 @@
 	{
 		"name" : "Wilhelmstraße 20a",
 		"description" : "Dieses stattliche Haus wurde 1926 vom jüdischen Wäschefabrikant Ernst Weinberg errichtet.",
-		"locationMapLat" : 51.855208,
-		"locationMapLong" : 8.290773,
+		"locationMapLat" : 51.855111,
+		"locationMapLong" : 8.290667,
 		"thumbnail" : "4/Pois/12/thumbnail.JPG",
 		"markerImage" : "4/Pois/12/markerImage.jpg",
 		"markerIds" : [
@@ -370,8 +370,8 @@
 	{
 		"name" : "Wilhelmstraße 30",
 		"description" : "Das Fachwerktraufenhaus mit Schmuckverschieferungen wurde 1834 als erste katholische Volksschule erbaut.",
-		"locationMapLat" : 51.855268,
-		"locationMapLong" : 8.291901,
+		"locationMapLat" : 51.855333,
+		"locationMapLong" : 8.291944,
 		"thumbnail" : "4/Pois/13/thumbnail.JPG",
 		"markerImage" : "4/Pois/13/markerImage.jpg",
 		"markerIds" : [
@@ -403,8 +403,8 @@
 	{
 		"name" : "Domhof 1",
 		"description" : "Dieses Hallenhaus wurde 1616 von Eberhard Huck errichtet. Seit 1986 steht dieses Gebäude unter Denkmalschutz.",
-		"locationMapLat" : 51.853125,
-		"locationMapLong" : 8.29349,
+		"locationMapLat" : 51.853917,
+		"locationMapLong" : 8.293611,
 		"thumbnail" : "4/Pois/14/thumbnail.JPG",
 		"markerImage" : "4/Pois/14/markerImage.jpg",
 		"markerIds" : [
@@ -434,10 +434,10 @@
 		]
 	},
 	{
-		"name" : "Berlinerstraße 57",
+		"name" : "Berlinerstraße 57, Schnittkerhaus",
 		"description" : "Johann Hermann Schnittker lässt 1867 ein Haus in typischer bürgerlicher Bauweise errichten.",
-		"locationMapLat" : 51.854492,
-		"locationMapLong" : 8.292952,
+		"locationMapLat" : 51.854583,
+		"locationMapLong" : 8.293083,
 		"thumbnail" : "4/Pois/15/thumbnail.JPG",
 		"markerImage" : "4/Pois/15/markerImage.jpg",
 		"markerIds" : [
@@ -467,10 +467,10 @@
 		]
 	},
 	{
-		"name" : "Rathausplatz 4",
+		"name" : "Rathausplatz 4, Stadtkirche",
 		"description" : "1326 wurde die gotische “Heilig-Blut-Kapelle” gebaut, ab 1527 wurde sie im Zuge der Reformation evangelisch.",
-		"locationMapLat" : 51.853744,
-		"locationMapLong" : 8.290604,
+		"locationMapLat" : 51.853750,
+		"locationMapLong" : 8.290750,
 		"thumbnail" : "4/Pois/17/thumbnail.JPG",
 		"markerImage" : "4/Pois/17/markerImage.jpg",
 		"markerIds" : [
@@ -502,8 +502,8 @@
 	{
 		"name" : "Steinweg 1",
 		"description" : "1827 wurde dieses Haus vom Juden Abraham Leser gebaut. Seit dem Erwerb vom Fürsten 1846 wohnen dort Angestellte der Fürstenfamilie.",
-		"locationMapLat" : 51.851787,
-		"locationMapLong" : 8.292825,
+		"locationMapLat" : 51.851694,
+		"locationMapLong" : 8.293194,
 		"thumbnail" : "4/Pois/19/thumbnail.JPG",
 		"markerImage" : "4/Pois/19/markerImage.jpg",
 		"markerIds" : [
@@ -535,8 +535,8 @@
 	{
 		"name" : "Schloss Rheda",
 		"description" : "Das Schloss ist eine Wasserburg aus dem 12. Jhd., sie befindet sich im Besitzer der Familie Bentheim-Tecklenburg.",
-		"locationMapLat" : 51.850929,
-		"locationMapLong" : 8.29582,
+		"locationMapLat" : 51.850861,
+		"locationMapLong" : 8.296056,
 		"thumbnail" : "4/Pois/20/thumbnail.jpg",
 		"markerImage" : "4/Pois/20/markerImage.jpg",
 						
