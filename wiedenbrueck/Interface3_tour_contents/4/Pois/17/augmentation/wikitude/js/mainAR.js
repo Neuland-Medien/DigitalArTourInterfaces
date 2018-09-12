@@ -7,16 +7,32 @@ var audioARon_2 = new RTImage("assets/audioARon.png",1,options_audioARon,trackab
 var sound = new AR.Sound("assets/audio.mp3");
 sound.load();
 audioaroff.onClickAdditions=function(){
-    turnOn();
+    sound.play();
+    audioARon.addToCam();
+    audioaroff.removeFromCam();
+    audioARon_2.addToCam();
+    audioaroff_2.removeFromCam();
 }
 audioARon.onClickAdditions=function(){
-    turnOff()
+    sound.pause();
+    audioaroff.addToCam();
+    audioARon.removeFromCam();
+    audioaroff_2.addToCam();
+    audioARon_2.removeFromCam();
 };
 audioaroff_2.onClickAdditions=function(){
-    turnOn()
+    sound.play();
+    audioARon.addToCam();
+    audioaroff.removeFromCam();
+    audioARon_2.addToCam();
+    audioaroff_2.removeFromCam();
 };
 audioARon_2.onClickAdditions=function(){
-    turnOff()
+    sound.pause();
+    audioaroff.addToCam();
+    audioARon.removeFromCam();
+    audioaroff_2.addToCam();
+    audioARon_2.removeFromCam();
 };
 
 sound.onFinishedPlaying=function(){
@@ -28,21 +44,6 @@ sound.onFinishedPlaying=function(){
 
 audioaroff.addToCam();
 audioaroff_2.addToCam();
-
-function turnON(){
-    sound.play();
-    audioARon.addToCam();
-    audioaroff.removeFromCam();
-    audioARon_2.addToCam();
-    audioaroff_2.removeFromCam();
-}
-function turnOff(){
-    sound.pause();
-    audioaroff.addToCam();
-    audioARon.removeFromCam();
-    audioaroff_2.addToCam();
-    audioARon_2.removeFromCam();
-}
 
 var World = {
     switchContentToInfo: function() {
