@@ -7,7 +7,8 @@
 		"thumbnail" : "3/Pois/1/thumbnail.jpg",
 		"markerImage" : "3/Pois/1/markerImage.jpg",
 		"markerIds" : [
-			"marker1"
+			"marker1",
+			"marker1_2"
 		],
 		"contents" : [
 			{
