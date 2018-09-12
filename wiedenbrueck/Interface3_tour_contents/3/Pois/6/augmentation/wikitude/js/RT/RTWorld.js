@@ -82,20 +82,20 @@ function createRotation2Animation(drawable){
 
 function createWinningAnimation(card1, card2){
 
-			var winningAnimation1x = new AR.PropertyAnimation(card1, "translate.x", card1.translate.x, -0.45, 800, {
+			var winningAnimation1x = new AR.PropertyAnimation(card1, "translate.x", card1.translate.x, 0, 800, {
 									type: AR.CONST.EASING_CURVE_TYPE.LINEAR
 			});
-			var winningAnimation1y = new AR.PropertyAnimation(card1, "translate.y", card1.translate.y, 0, 800, {
+			var winningAnimation1y = new AR.PropertyAnimation(card1, "translate.y", card1.translate.y, -0.6, 800, {
 				type: AR.CONST.EASING_CURVE_TYPE.LINEAR
 			});
 			var winningAnimation1z = new AR.PropertyAnimation(card1, "translate.z", card1.translate.z, 0.1, 400, {
 				type: AR.CONST.EASING_CURVE_TYPE.LINEAR
 			});
 
-			var winningAnimation2x = new AR.PropertyAnimation(card2, "translate.x", card2.translate.x, -0.45, 800, {
+			var winningAnimation2x = new AR.PropertyAnimation(card2, "translate.x", card2.translate.x, 0, 800, {
 				type: AR.CONST.EASING_CURVE_TYPE.LINEAR
 			});
-			var winningAnimation2y = new AR.PropertyAnimation(card2, "translate.y", card2.translate.y, 0, 800, {
+			var winningAnimation2y = new AR.PropertyAnimation(card2, "translate.y", card2.translate.y, -0.6, 800, {
 				type: AR.CONST.EASING_CURVE_TYPE.LINEAR
 			});
 			var winningAnimation2z = new AR.PropertyAnimation(card2, "translate.z", card2.translate.z, 0.2, 400, {
