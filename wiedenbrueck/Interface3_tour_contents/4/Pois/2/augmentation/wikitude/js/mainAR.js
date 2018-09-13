@@ -28,12 +28,12 @@ var World = {
       audioaroff.removeFromCam();
 
       document.getElementById("clara").style.visibility = "visible";
-      document.getElementById("louis").style.visibility = "visible";
+      //document.getElementById("louis").style.visibility = "visible";
     },
     switchContentToAR: function() {
       audioaroff.addToCam();
       document.getElementById("clara").style.visibility = "hidden";
-      document.getElementById("louis").style.visibility = "hidden";
+      //document.getElementById("louis").style.visibility = "hidden";
     },
     turnEverythingOff: function() {
       sound.pause();
@@ -41,7 +41,7 @@ var World = {
       audioaroff.removeFromCam();
 
       document.getElementById("clara").style.visibility = "hidden";
-      document.getElementById("louis").style.visibility = "hidden";
+      //document.getElementById("louis").style.visibility = "hidden";
         
     }
 };
