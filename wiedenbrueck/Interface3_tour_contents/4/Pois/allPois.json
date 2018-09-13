@@ -170,7 +170,7 @@
 		"locationMapLat" : 51.851972,
 		"locationMapLong" : 8.289611,
 		"thumbnail" : "4/Pois/6/thumbnail.JPG",
-		"markerImage" : "4/Pois/6/markerImage.png",
+		"markerImage" : "4/Pois/6/markerImage.jpg",
 						
 		"markerIds" : [
 			"marker6",
@@ -401,7 +401,7 @@
 		]
 	},
 	{
-		"name" : "Domhof 1",
+		"name" : "Am Domhof 1",
 		"description" : "Dieses Hallenhaus wurde 1616 von Eberhard Huck errichtet. Seit 1986 steht dieses Gebäude unter Denkmalschutz.",
 		"locationMapLat" : 51.853917,
 		"locationMapLong" : 8.293611,
@@ -538,7 +538,7 @@
 		"locationMapLat" : 51.850861,
 		"locationMapLong" : 8.296056,
 		"thumbnail" : "4/Pois/20/thumbnail.jpg",
-		"markerImage" : "4/Pois/20/markerImage.jpg",
+		"markerImage" : "4/Pois/20/markerImage.png",
 						
 		"markerIds" : [
 			"marker20",
