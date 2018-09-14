@@ -4,11 +4,14 @@ Schnittkerhaus.addToCam();
 
 var World = {
     switchContentToInfo: function() {
+        alert("0");
       
     Schnittkerhaus.removeFromCam();
 
+        alert("1");
       document.getElementById("clara").style.visibility = "visible";
       document.getElementById("louis").style.visibility = "visible";
+        alert("2");
     },
     switchContentToAR: function() {
         

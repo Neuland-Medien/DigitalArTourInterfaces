@@ -7,7 +7,8 @@
 		"thumbnail" : "4/Pois/1/thumbnail.JPG",
 		"markerImage" : "4/Pois/1/markerImage.jpg",
 		"markerIds" : [
-			"marker1"
+			"marker1",
+			"marker1_2"
 		],
 		"contents" : [
 			{
@@ -106,7 +107,8 @@
 		"thumbnail" : "4/Pois/4/thumbnail.JPG",
 		"markerImage" : "4/Pois/4/markerImage.jpg",
 		"markerIds" : [
-			"marker4"
+			"marker4",
+			"marker4_2"
 		],
 		"contents" : [
 			{
@@ -474,7 +476,8 @@
 		"thumbnail" : "4/Pois/17/thumbnail.JPG",
 		"markerImage" : "4/Pois/17/markerImage.jpg",
 		"markerIds" : [
-			"marker17"
+			"marker17",
+			"marker17_2"
 		],
 		"contents" : [
 			{
@@ -543,9 +546,8 @@
 		"markerIds" : [
 			"marker20",
 			"marker20a",
-			"marker20b",
 			"marker20c",
-			"marker20d"
+			"marker20_2"
 		],
 		"contents" : [
 			{
