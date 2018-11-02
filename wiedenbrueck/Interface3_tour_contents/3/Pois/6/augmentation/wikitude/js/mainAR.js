@@ -9,8 +9,6 @@ var model5 = new RTModel("assets/memory3.wt3", optionsKarte5,trackableRhedaMarke
 var model6 = new RTModel("assets/memory3.wt3", optionsKarte6,trackableRhedaMarker06);
 var model7 = new RTModel("assets/memory4.wt3", optionsKarte7,trackableRhedaMarker06);
 var model8 = new RTModel("assets/memory4.wt3", optionsKarte8,trackableRhedaMarker06);
-var model9 = new RTModel("assets/memory5.wt3", optionsKarte9,trackableRhedaMarker06);
-var model10 = new RTModel("assets/memory5.wt3", optionsKarte10,trackableRhedaMarker06);
 var model11 = new RTModel("assets/memory6.wt3", optionsKarte11,trackableRhedaMarker06);
 var model12 = new RTModel("assets/memory6.wt3", optionsKarte12,trackableRhedaMarker06);
 var model13 = new RTModel("assets/memory7.wt3", optionsKarte13,trackableRhedaMarker06);
@@ -28,8 +26,6 @@ model5.addToCam();
 model6.addToCam();
 model7.addToCam();
 model8.addToCam();
-model9.addToCam();
-model10.addToCam();
 model11.addToCam();
 model12.addToCam();
 model13.addToCam();
@@ -44,12 +40,11 @@ var pair1 = new RTMemoryPair(model1, model2);
 var pair2 = new RTMemoryPair(model3, model4);
 var pair3 = new RTMemoryPair(model5, model6);
 var pair4 = new RTMemoryPair(model7, model8);
-var pair5 = new RTMemoryPair(model9, model10);
 var pair6 = new RTMemoryPair(model11, model12);
 var pair7 = new RTMemoryPair(model13, model14);
 var pair8 = new RTMemoryPair(model15, model16);
 var pair9 = new RTMemoryPair(model17, model18);
-var pairs = [pair1, pair2, pair3, pair4, pair5, pair6, pair7, pair8, pair9];
+var pairs = [pair1, pair2, pair3, pair4, pair6, pair7, pair8, pair9];
 
 //creates memory with the pairs on the coordinates 0,0 and shuffles the cards
 var memory = new RTMemory(pairs, 0, 0);
@@ -95,3 +90,35 @@ var World = {
 };
 alert("Ende");
 */
+
+var World = {
+    switchContentToInfo: function() {
+      allDrawables.forEach(function(element)
+        {
+            element.removeFromCam();
+        })
+        
+      document.getElementById("clara").style.visibility = "visible";
+      document.getElementById("louis").style.visibility = "visible";
+    },
+    switchContentToAR: function() {
+        allDrawables.forEach(function(element)
+        {
+            element.addToCam();
+        })
+        
+      document.getElementById("clara").style.visibility = "hidden";
+      document.getElementById("louis").style.visibility = "hidden";
+    },
+    turnEverythingOff: function() {
+      allDrawables.forEach(function(element)
+        {
+            element.removeFromCam();
+        })
+        
+      document.getElementById("clara").style.visibility = "hidden";
+      document.getElementById("louis").style.visibility = "hidden";
+    }
+    
+};
+

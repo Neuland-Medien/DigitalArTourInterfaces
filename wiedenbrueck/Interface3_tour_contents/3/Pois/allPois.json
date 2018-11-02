@@ -17,6 +17,11 @@
 				"mediaPath" : "3/Pois/1/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/1/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "3/Pois/1/description.json"
@@ -25,12 +30,7 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/1/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/1/augmentation/augmentation.json"
-			}
+			}			
 		]
 	},
 	{
@@ -50,6 +50,11 @@
 				"mediaPath" : "3/Pois/2/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/2/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "3/Pois/2/description.json"
@@ -58,11 +63,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/2/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/2/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -103,7 +103,8 @@
 		"markerImage" : "3/Pois/4/markerImage.png",
 		"markerIds" : [
 			"marker4",
-			"marker4_2"
+			"marker4_2",
+			"marker4_3"
 		],
 		"contents" : [
 			{
@@ -128,7 +129,7 @@
 		"description" : "Eines der ältesten Fachwerkhäuser Rhedas, das 1564/65 erbaut worden ist.",
 		"locationMapLat" : 51.851722,
 		"locationMapLong" : 8.291500,
-		"thumbnail" : "3/Pois/5/thumbnail.JPG",
+		"thumbnail" : "3/Pois/5/thumbnail.jpg",
 		"markerImage" : "3/Pois/5/markerImage.jpg",
 		"markerIds" : [
 			"marker5"
@@ -160,16 +161,18 @@
 		"markerImage" : "3/Pois/6/markerImage.jpg",
 
 		"markerIds" : [
-			"marker6",
-			"marker6a",
-			"marker6b",
-			"marker6d"
+			"marker6"
 		],
 		"contents" : [
 			{
 				"name" : "Sprecher",
 				"contentType" : "AUDIO",
 				"mediaPath" : "3/Pois/6/audio.json"
+			},
+			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/6/augmentation/augmentation.json"
 			},
 			{
 				"name" : "Beschreibungstext",
@@ -180,11 +183,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/6/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/6/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -205,6 +203,11 @@
 				"mediaPath" : "3/Pois/7/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/7/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "3/Pois/7/description.json"
@@ -213,11 +216,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/7/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/7/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -294,6 +292,11 @@
 				"mediaPath" : "3/Pois/10/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/10/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "3/Pois/10/description.json"
@@ -302,11 +305,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/10/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/10/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -412,6 +410,11 @@
 				"mediaPath" : "3/Pois/14/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/14/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "3/Pois/14/description.json"
@@ -420,11 +423,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/14/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/14/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -445,6 +443,11 @@
 				"mediaPath" : "3/Pois/15/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/15/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "3/Pois/15/description.json"
@@ -453,11 +456,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/15/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/15/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -479,6 +477,11 @@
 				"mediaPath" : "3/Pois/17/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/17/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "3/Pois/17/description.json"
@@ -487,11 +490,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/17/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/17/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -503,13 +501,19 @@
 		"thumbnail" : "3/Pois/18/thumbnail.JPG",
 		"markerImage" : "3/Pois/18/markerImage.jpg",
 		"markerIds" : [
-			"marker18"
+			"marker18",
+			"marker18_2"
 		],
 		"contents" : [
 			{
 				"name" : "Sprecher",
 				"contentType" : "AUDIO",
 				"mediaPath" : "3/Pois/18/audio.json"
+			},
+			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/18/augmentation/augmentation.json"
 			},
 			{
 				"name" : "Beschreibungstext",
@@ -520,11 +524,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/18/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/18/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -545,6 +544,11 @@
 				"mediaPath" : "3/Pois/19/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/19/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "3/Pois/19/description.json"
@@ -553,11 +557,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/19/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/19/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -571,8 +570,6 @@
 
 		"markerIds" : [
 			"marker20",
-			"marker20a",
-			"marker20c",
 			"marker20_2"
 		],
 		"contents" : [
@@ -580,6 +577,11 @@
 				"name" : "Sprecher",
 				"contentType" : "AUDIO",
 				"mediaPath" : "3/Pois/20/audio.json"
+			},
+			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "3/Pois/20/augmentation/augmentation.json"
 			},
 			{
 				"name" : "Beschreibungstext",
@@ -590,11 +592,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "3/Pois/20/galery/galery.json"
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "3/Pois/20/augmentation/augmentation.json"
 			}
 		]
 	},

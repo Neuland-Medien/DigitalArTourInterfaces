@@ -11,13 +11,22 @@ video_2.addToCam();
 var World = {
     switchContentToInfo: function() {
       video.removeFromCam();
+      video.pause();
+        video2.removeFromCam();
+      video2.pause();
 
     },
     switchContentToAR: function() {
       video.addToCam();
+      video.resume();
+        video2.removeFromCam();
+      video2.pause();
     },
     turnEverythingOff: function() { 
       video.removeFromCam();
+      video.pause();
+        video2.removeFromCam();
+      video2.pause();
         
     }
 };

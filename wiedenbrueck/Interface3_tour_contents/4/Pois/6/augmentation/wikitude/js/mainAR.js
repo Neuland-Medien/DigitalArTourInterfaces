@@ -76,76 +76,54 @@ sound.onFinishedPlaying=function(){
   audioARon.removeFromCam();
 }
 audioaroff.addToCam();
-*/
+
 var World = {
     switchContentToInfo: function() {
-      model1.removeFromCam();
-        model2.removeFromCam();
-        model3.removeFromCam();
-        model4.removeFromCam();
-        model5.removeFromCam();
-        model6.removeFromCam();
-        model7.removeFromCam();
-        model8.removeFromCam();
-        model9.removeFromCam();
-        model10.removeFromCam();
-        model11.removeFromCam();
-        model12.removeFromCam();
-        model13.removeFromCam();
-        model14.removeFromCam();
-        model15.removeFromCam();
-        model16.removeFromCam();
-        model17.removeFromCam();
-      model18.removeFromCam();
+      sound.pause();
+      audioARon.removeFromCam();
+      audioaroff.removeFromCam();
+    },
+    switchContentToAR: function() {
+      audioaroff.addToCam();
+    },
+    turnEverythingOff: function() {
+      sound.pause();
+      audioARon.removeFromCam();
+      audioaroff.removeFromCam();
+    }
+    
+};
+alert("Ende");
+*/
+
+var World = {
+    switchContentToInfo: function() {
+        allDrawables.forEach(function(element)
+        {
+            element.removeFromCam();
+        })
         
       document.getElementById("clara").style.visibility = "visible";
       document.getElementById("louis").style.visibility = "visible";
     },
     switchContentToAR: function() {
-      model1.addToCam();
-model2.addToCam();
-model3.addToCam();
-model4.addToCam();
-model5.addToCam();
-model6.addToCam();
-model7.addToCam();
-model8.addToCam();
-model9.addToCam();
-model10.addToCam();
-model11.addToCam();
-model12.addToCam();
-model13.addToCam();
-model14.addToCam();
-model15.addToCam();
-model16.addToCam();
-model17.addToCam();
-model18.addToCam();
+        allDrawables.forEach(function(element)
+        {
+            element.addToCam();
+        })
         
       document.getElementById("clara").style.visibility = "hidden";
       document.getElementById("louis").style.visibility = "hidden";
     },
     turnEverythingOff: function() {
-      model1.removeFromCam();
-        model2.removeFromCam();
-        model3.removeFromCam();
-        model4.removeFromCam();
-        model5.removeFromCam();
-        model6.removeFromCam();
-        model7.removeFromCam();
-        model8.removeFromCam();
-        model9.removeFromCam();
-        model10.removeFromCam();
-        model11.removeFromCam();
-        model12.removeFromCam();
-        model13.removeFromCam();
-        model14.removeFromCam();
-        model15.removeFromCam();
-        model16.removeFromCam();
-        model17.removeFromCam();
-      model18.removeFromCam();
+        allDrawables.forEach(function(element)
+        {
+            element.removeFromCam();
+        })
         
       document.getElementById("clara").style.visibility = "hidden";
       document.getElementById("louis").style.visibility = "hidden";
     }
     
 };
+

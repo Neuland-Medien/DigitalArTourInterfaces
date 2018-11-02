@@ -550,9 +550,9 @@ class RTVideo extends AR.VideoDrawable {
     }
 
     onImageRecognized(targetName) {
-        //if (trackableBasis.drawables.cam.indexOf(this) > -1) {
-        this.resume();
-        //}
+        if (allVisibleDrawables.indexOf(this) > -1) {
+            this.resume();
+        }
         this.onRecognitionAnimation();
     }
 

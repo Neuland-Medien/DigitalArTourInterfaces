@@ -10,12 +10,15 @@ video.addToCam();
 var World = {
     switchContentToInfo: function () {
         video.removeFromCam();
+        video.pause();
     },
     switchContentToAR: function () {
         video.addToCam();
+        video.resume();
     },
     turnEverythingOff: function () {
         video.removeFromCam();
+        video.pause();
 
     }
 };

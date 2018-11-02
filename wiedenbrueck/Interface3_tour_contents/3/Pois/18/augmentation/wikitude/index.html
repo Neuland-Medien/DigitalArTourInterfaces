@@ -37,12 +37,23 @@
   <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
 </div>-->
     
+    <div id="hinweis" style="position:fixed; top: 50%; left: 50%; padding: 1em; width:10em; height:6em; margin-top: -3em; margin-left: -6.25em; background-color: #FFFFFF; border-radius: 0.5em; text-align:center;">
+        <b style="padding-bottom: 0.8em">Hinweis:</b><br>
+        <b>Hier lohnen sich Kopfhörer.</b><br>
+        
+            <button id="button" type="button" style="width: 8em; height: 2em; background-color: #FBC033; border-style: none; border-radius: 1.2em; padding:0.1em; text-align: center; color: #FFFFFF; margin-top:0.6em; font-size:1em;">Ok</button>
+        
+    </div>
+    
     
     
     <script>
+        document.getElementById("hinweis").style.visibility = "visible";
         
-        alert("Hier lohnen sich Kopfhörer");
-        
+        document.getElementById("button").onclick = function () {
+            document.getElementById("hinweis").style.visibility = "hidden";
+        };
+                
     </script>
     
     

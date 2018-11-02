@@ -24,21 +24,26 @@ audioaroff.addToCam();
 var World = {
     switchContentToInfo: function() {
       sound.pause();
-      audioARon.removeFromCam();
-      audioaroff.removeFromCam();
-
+      allDrawables.forEach(function(element)
+        {
+            element.removeFromCam();
+        })
+        
       document.getElementById("clara").style.visibility = "visible";
       //document.getElementById("louis").style.visibility = "visible";
     },
     switchContentToAR: function() {
       audioaroff.addToCam();
+        audioaroff2.addToCam();
       document.getElementById("clara").style.visibility = "hidden";
       //document.getElementById("louis").style.visibility = "hidden";
     },
     turnEverythingOff: function() {
       sound.pause();
-      audioARon.removeFromCam();
-      audioaroff.removeFromCam();
+      allDrawables.forEach(function(element)
+        {
+            element.removeFromCam();
+        })
 
       document.getElementById("clara").style.visibility = "hidden";
       //document.getElementById("louis").style.visibility = "hidden";

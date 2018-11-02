@@ -135,8 +135,6 @@ class RTMemory{
         {
             this.positions.push([pairs[i].card1.translate.x, pairs[i].card1.translate.y, pairs[i].card1.translate.z]);
             this.positions.push([pairs[i].card2.translate.x, pairs[i].card2.translate.y, pairs[i].card2.translate.z]);
-            //alert(pairs[i].card1.translate.x);
-            //alert(pairs[i].card2.translate.x);
         }
         
         for(var i = 0; i < pairs.length; i++)
@@ -152,24 +150,22 @@ class RTMemory{
         
 
 		this.positions = [
-		[-0.75, -0.3, 0],
-		[-0.45, -0.3, 0],
-		[-0.15, -0.3, 0],
-		[0.15, -0.3, 0],
-		[0.45, -0.3, 0],
-		[0.75, -0.3, 0],
-		[-0.75, 0, 0],
-		[-0.45, 0, 0],
-		[-0.15, 0, 0],
-		[0.15, 0, 0],
-		[0.45, 0, 0],
-		[0.75, 0, 0],
-		[-0.75, 0.3, 0],
-		[-0.45, 0.3, 0],
-        [-0.15, 0.3, 0],
-		[0.15, 0.3, 0],
-		[0.45, 0.3, 0],
-		[0.75, 0.3, 0]];
+		[-0.3, -0.3, 0],
+		[-0.3, -0.1, 0],
+		[-0.3, 0.1, 0],
+		[-0.3, 0.3, 0],
+		[-0.1, -0.3, 0],
+		[-0.1, -0.1, 0],
+		[-0.1, 0.1, 0],
+		[-0.1, 0.3, 0],
+		[0.1, -0.3, 0],
+		[0.1, -0.1, 0],
+		[0.1, 0.1, 0],
+		[0.1, 0.3, 0],
+		[0.3, -0.3, 0],
+		[0.3, -0.1, 0],
+        [0.3, 0.1, 0],
+		[0.3, 0.3, 0]];
         
 /**
 		for(var j = 0; j<this.positions.length;j++){
@@ -297,13 +293,9 @@ class RTMemory{
 			} while (this.counter.indexOf(j) != -1)
 			this.counter.push(j);
 		}
-       // alert("counterlänge" + this.counter.length);
 		for(var i = 0; i<this.allCards.length;i++){
 			var card = this.allCards[i];
             
-            //alert("i: " + i);
-            //alert("counter[i]: " + this.counter[i]);
-            //alert(this.positions[this.counter[i]][0]);
             
             //card.translate.x = this.positions[this.counter[i]][0];
 			//card.translate.y = this.positions[this.counter[i]][1];
@@ -361,7 +353,6 @@ function moveBackAnim(drawable, time, x,y,z){
 
 
 function successAnimation(card1, card2){
-		//alert("success: "+card1.name +" + "+card2.name);
 		card1.memoryGame.successCount++;
 		var anim = createWinningAnimation(card1,card2);
 		anim.onFinish = function () {
@@ -924,9 +915,9 @@ class RTVideo extends AR.VideoDrawable {
     }
 
     onImageRecognized(targetName) {
-        //if (trackableBasis.drawables.cam.indexOf(this) > -1) {
-        this.resume();
-        //}
+        if (allVisibleDrawables.indexOf(this) > -1) {
+            this.resume();
+        }
         this.onRecognitionAnimation();
     }
 

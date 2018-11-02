@@ -1,4 +1,1 @@
-var options_Fuerst = {"name":"Schnittkerhaus","scale":{"x":1.6168348104999999,"y":1.6168348104999999,"z":1.6168348104999999},"translate":{"x":-0.3826859899999999,"y":-1.30723358,"z":0,"global":{"x":0,"y":0,"z":0}},"rotate":{"x":0,"y":0,"z":0,"global":{"x":0,"y":0,"z":0}}}
-
-
-
+var options_Fuerst = {"name":"Fuerst","scale":{"x":0.98,"y":0.98},"translate":{"x":0,"y":-0.27,"z":0,"global":{"x":0,"y":0,"z":0}},"rotate":{"x":0,"y":0,"z":0,"global":{"x":0,"y":0,"z":0}}}

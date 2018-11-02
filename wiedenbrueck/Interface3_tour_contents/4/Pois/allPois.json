@@ -17,6 +17,11 @@
 				"mediaPath" : "4/Pois/1/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/1/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "4/Pois/1/description.json"
@@ -25,11 +30,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/1/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/1/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -50,6 +50,11 @@
 				"mediaPath" : "4/Pois/2/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/2/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "4/Pois/2/description.json"
@@ -58,11 +63,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/2/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/2/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -91,24 +91,20 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/3/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/3/augmentation/augmentation.json"
 			}
 		]
 	},	
 	{
 		"name" : "Berliner Straße 22",
-		"description" : "Berliner Straße 22, die barocke Stadtvilla beherbergte bis 1932 das Alte Amtsgericht.",
+		"description" : "Die barocke Stadtvilla beherbergte bis 1932 das Alte Amtsgericht.",
 		"locationMapLat" : 51.853000,
 		"locationMapLong" : 8.291917,
 		"thumbnail" : "4/Pois/4/thumbnail.JPG",
 		"markerImage" : "4/Pois/4/markerImage.jpg",
 		"markerIds" : [
 			"marker4",
-			"marker4_2"
+			"marker4_2",
+			"marker4_3"
 		],
 		"contents" : [
 			{
@@ -125,11 +121,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/4/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/4/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -158,11 +149,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/5/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/5/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -175,16 +161,18 @@
 		"markerImage" : "4/Pois/6/markerImage.jpg",
 						
 		"markerIds" : [
-			"marker6",
-			"marker6a",
-			"marker6b",
-			"marker6d"
+			"marker6"
 		],
 		"contents" : [
 			{
 				"name" : "Sprecher",
 				"contentType" : "AUDIO",
 				"mediaPath" : "4/Pois/6/audio.json"
+			},
+			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/6/augmentation/augmentation.json"
 			},
 			{
 				"name" : "Beschreibungstext",
@@ -195,11 +183,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/6/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/6/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -211,14 +194,18 @@
 		"thumbnail" : "4/Pois/7/thumbnail.JPG",
 		"markerImage" : "4/Pois/7/markerImage.JPG",
 		"markerIds" : [
-			"marker7",
-			"marker7b"
+			"marker7"
 		],
 		"contents" : [
 			{
 				"name" : "Sprecher",
 				"contentType" : "AUDIO",
 				"mediaPath" : "4/Pois/7/audio.json"
+			},
+			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/7/augmentation/augmentation.json"
 			},
 			{
 				"name" : "Beschreibungstext",
@@ -229,11 +216,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/7/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/7/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -262,11 +244,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/8/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/8/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -295,11 +272,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/9/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/9/augmentation/augmentation.json"
 			}
 		]
 	},	
@@ -320,6 +292,11 @@
 				"mediaPath" : "4/Pois/10/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/10/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "4/Pois/10/description.json"
@@ -328,11 +305,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/10/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/10/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -356,16 +328,11 @@
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "4/Pois/12/description.json"
-			},	
+			},
 			{
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/12/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/12/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -394,11 +361,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/13/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/13/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -419,6 +381,11 @@
 				"mediaPath" : "4/Pois/14/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/14/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "4/Pois/14/description.json"
@@ -427,11 +394,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/14/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/14/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -452,6 +414,11 @@
 				"mediaPath" : "4/Pois/15/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/15/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "4/Pois/15/description.json"
@@ -460,11 +427,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/15/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/15/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -486,6 +448,11 @@
 				"mediaPath" : "4/Pois/17/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/17/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "4/Pois/17/description.json"
@@ -494,11 +461,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/17/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/17/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -519,6 +481,11 @@
 				"mediaPath" : "4/Pois/19/audio.json"
 			},
 			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/19/augmentation/augmentation.json"
+			},
+			{
 				"name" : "Beschreibungstext",
 				"contentType" : "TEXT",
 				"mediaPath" : "4/Pois/19/description.json"
@@ -527,11 +494,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/19/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/19/augmentation/augmentation.json"
 			}
 		]
 	},
@@ -545,8 +507,6 @@
 						
 		"markerIds" : [
 			"marker20",
-			"marker20a",
-			"marker20c",
 			"marker20_2"
 		],
 		"contents" : [
@@ -554,6 +514,11 @@
 				"name" : "Sprecher",
 				"contentType" : "AUDIO",
 				"mediaPath" : "4/Pois/20/audio.json"
+			},
+			{
+				"name" : "3dAnimation",
+				"contentType" : "WIKITUDE_AUGMENTATION",
+				"mediaPath" : "4/Pois/20/augmentation/augmentation.json"
 			},
 			{
 				"name" : "Beschreibungstext",
@@ -564,11 +529,6 @@
 				"name" : "Galery",
 				"contentType" : "GALERY",
 				"mediaPath" : "4/Pois/20/galery/galery.json" 
-			},
-			{
-				"name" : "3dAnimation",
-				"contentType" : "WIKITUDE_AUGMENTATION",
-				"mediaPath" : "4/Pois/20/augmentation/augmentation.json"
 			}
 		]
 	},

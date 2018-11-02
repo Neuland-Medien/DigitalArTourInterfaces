@@ -33,15 +33,20 @@ audioaroff2.addToCam();
 var World = {
     switchContentToInfo: function() {
       sound.pause();
-      audioARon.removeFromCam();
-      audioaroff.removeFromCam();
+      allDrawables.forEach(function(element)
+        {
+            element.removeFromCam();
+        })
     },
     switchContentToAR: function() {
-      audioaroff.addToCam();
+        audioaroff.addToCam();
+        audioaroff2.addToCam();
     },
     turnEverythingOff: function() {
       sound.pause();
-      audioARon.removeFromCam();
-      audioaroff.removeFromCam();
+      allDrawables.forEach(function(element)
+        {
+            element.removeFromCam();
+        })
     }
 };

@@ -6,14 +6,19 @@ var World = {
     switchContentToInfo: function() {
       
     Schnittkerhaus.removeFromCam();
+    Schnittkerhaus.pause();
+        
     },
     switchContentToAR: function() {
         
     Schnittkerhaus.addToCam();
+    Schnittkerhaus.resume();
+        
     },
     turnEverythingOff: function() {
         
     Schnittkerhaus.removeFromCam();
+    Schnittkerhaus.pause();
         
     }
 };
